@@ -1,0 +1,526 @@
+{
+  "_note": "Certification content from 'Certification Options for Farmers' (Kisan Rahnuma knowledge base, prepared 14 Oct 2026, Sukkur IBA University). Organised by crop, because farmers know their crop rather than certificate names; organic gets its own entry because it applies to every crop. The general guidance ('start here') is the menu intro, shown with the list of crops. Only VERIFIED or CORROBORATED facts and the document's draft farmer messages (section 4) are shown to farmers; SINGLE-SOURCE facts are attributed ('Dawn reports'); NOT VERIFIED, NOT FOUND and FROM MEETING items are left out (see _pending). Each topic's _status names the document sections and _sources numbers it is built from. Urdu/Sindhi are machine-drafted and must be checked (Prof. Dr Altaf) before use. Each answer must stay under 1,024 characters in every language (tests/test_services.py).",
+  "_sources": {
+    "1": "IPO Pakistan, notified GIs: https://ipo.gov.pk/gi_notifiedGIs",
+    "2": "MDPI Sustainability (2025), GIs in Pakistan: https://www.mdpi.com/2071-1050/17/11/5114",
+    "3": "TDAP, Sindhri Mango GI book of specifications: https://tdap.gov.pk/wp-content/uploads/2025/07/Appendix-1_Book-of-Specs_Sindhri-Mango_GI.pdf",
+    "4": "CCRI, Better Cotton Initiative project: https://ccri.gov.pk/Ento%20Projects/BCI.pdf",
+    "5": "CABI, Producing Better Cotton in Pakistan: https://www.cabi.org/projects/producing-better-cotton-in-pakistan/",
+    "6": "CBI (EU), buyer requirements for grains, pulses and oilseeds: https://www.cbi.eu/market-information/grains-pulses-oilseeds/buyer-requirements",
+    "7": "ProPakistani, mango export SPS compliance (Sept 2025): https://propakistani.pk/2025/09/03/pakistan-ensures-sps-compliance-blocks-non-compliant-mango-exports/amp/",
+    "8": "PID, certified seed enforcement: https://pid.gov.pk/site/press_detail/10919",
+    "9": "Dawn, Sindhri mango and GlobalG.A.P. growers: https://www.dawn.com/news/amp/1839204",
+    "10": "Dawn, Basmati registration: https://www.dawn.com/news/1598265/basmati-rice-still-not-registered-as-local-product-in-pakistan",
+    "ILO": "ILO, Mapping of the cotton supply chain at the community level in Pakistan (Feb 2025): REEL Cotton in Ghotki and Dadu",
+    "BC": "Better Cotton call for partners (July 2026): nine partners, 320,000+ farmers, about 140 Producer Units"
+  },
+  "_pending": [
+    "Better Cotton / REEL partner and Producer Units in Sukkur, Khairpur and Ghotki (ask Better Cotton Pakistan, CABI, CottonConnect). When confirmed, name the partner in the cotton topic.",
+    "Organic and GlobalG.A.P. certifiers in Pakistan (Control Union, Ecocert, SGS): office addresses, EU recognition, smallholder group fees.",
+    "Aseel Dates GI: area covered, authorised-user process and fee (Sindh Agriculture Research; IPO GI Registry). Whether Sindhri Mango GI covers Sukkur/Khairpur.",
+    "FSC&RD office serving Upper Sindh; how farmers can check that seed is certified.",
+    "Soil and water testing labs in the three districts (fees, turnaround).",
+    "Any Sindh organic certification notification (the 'Sindh organic certification rules' in the grant application were not found).",
+    "Organic banana and Nizamo farm, Tando Jam (FROM MEETING, not checked)."
+  ],
+  "intro": {
+    "_status": "Section 4 message 1, the 'How to use' guidance and the group route (CORROBORATED). Shown above the crop list.",
+    "summary": {
+      "en": "A certificate shows buyers that your crop meets a standard. Small farmers rarely get one alone: it usually comes through a buyer, exporter, ginner or farmer group.",
+      "ur": "سرٹیفکیٹ خریدار کو بتاتا ہے کہ آپ کی فصل ایک معیار پر پوری اترتی ہے۔ چھوٹا کسان عموماً اکیلے یہ حاصل نہیں کرتا: یہ زیادہ تر خریدار، ایکسپورٹر، جننگ فیکٹری یا کسان گروپ کے ذریعے ملتا ہے۔",
+      "sd": "سرٽيفڪيٽ خريدار کي ٻڌائي ٿو ته توهان جو فصل هڪ معيار تي پورو آهي. ننڍو هاري عام طور تي اڪيلو اهو حاصل نٿو ڪري: اهو گهڻو ڪري خريدار، ايڪسپورٽر، جننگ فيڪٽري يا هارين جي گروپ ذريعي ملي ٿو."
+    },
+    "sections": [
+      {
+        "heading": {
+          "en": "Before you spend money",
+          "ur": "پیسہ خرچ کرنے سے پہلے",
+          "sd": "پئسا خرچ ڪرڻ کان اڳ"
+        },
+        "items": [
+          {
+            "en": "Ask your ginner, exporter or a programme partner which certificate they want",
+            "ur": "اپنی جننگ فیکٹری، ایکسپورٹر یا پروگرام پارٹنر سے پوچھیں کہ انہیں کون سا سرٹیفکیٹ چاہیے",
+            "sd": "پنهنجي جننگ فيڪٽري، ايڪسپورٽر يا پروگرام پارٽنر کان پڇو ته کين ڪهڙو سرٽيفڪيٽ گهرجي"
+          },
+          {
+            "en": "Join a group: farmers certified together pay much less",
+            "ur": "گروپ میں شامل ہوں: کسان مل کر سرٹیفیکیشن کروائیں تو خرچ بہت کم ہوتا ہے",
+            "sd": "گروپ ۾ شامل ٿيو: هاري گڏجي سرٽيفڪيشن ڪرائين ته خرچ گهڻو گهٽ ٿئي ٿو"
+          },
+          {
+            "en": "It takes time, and a higher price is not guaranteed",
+            "ur": "اس میں وقت لگتا ہے، اور زیادہ قیمت کی کوئی ضمانت نہیں",
+            "sd": "ان ۾ وقت لڳي ٿو، ۽ وڌيڪ قيمت جي ڪا ضمانت ناهي"
+          }
+        ]
+      }
+    ]
+  },
+  "certifications": [
+    {
+      "id": "cotton",
+      "_status": "Sections 2 (cotton row), 3.2 and 3.3; section 4 message 2. Scale and free cost VERIFIED/CORROBORATED (sources BC, 5); CABI Sindh CORROBORATED (5); REEL Ghotki CORROBORATED (ILO). Partner for our districts NOT VERIFIED: not named. CCRI project is not in our districts (4): not mentioned.",
+      "aliases": ["better cotton", "bci", "reel", "reel cotton", "kapas", "phutti"],
+      "label": {
+        "en": "Cotton",
+        "ur": "کپاس",
+        "sd": "ڪپهه"
+      },
+      "title": {
+        "en": "Cotton: Better Cotton (free)",
+        "ur": "کپاس: بیٹر کاٹن (مفت)",
+        "sd": "ڪپهه: بيٽر ڪاٽن (مفت)"
+      },
+      "summary": {
+        "en": "The most realistic certificate for cotton farmers, especially in Ghotki. Farmers are trained in groups and licensed to sell Better Cotton. Training and licence are free.",
+        "ur": "کپاس کے کسانوں کے لیے سب سے موزوں سرٹیفکیٹ، خاص طور پر گھوٹکی میں۔ کسانوں کو گروپوں میں تربیت دی جاتی ہے اور بیٹر کاٹن بیچنے کا لائسنس ملتا ہے۔ تربیت اور لائسنس مفت ہیں۔",
+        "sd": "ڪپهه جي هارين لاءِ سڀ کان موزون سرٽيفڪيٽ، خاص ڪري گهوٽڪي ۾. هارين کي گروپن ۾ تربيت ڏني وڃي ٿي ۽ بيٽر ڪاٽن وڪڻڻ جو لائسنس ملي ٿو. تربيت ۽ لائسنس مفت آهن."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "How to join",
+            "ur": "شامل کیسے ہوں",
+            "sd": "شامل ڪيئن ٿيو"
+          },
+          "items": [
+            {
+              "en": "Nine partners work with more than 320,000 farmers in Punjab and Sindh",
+              "ur": "نو پارٹنر پنجاب اور سندھ میں 3 لاکھ 20 ہزار سے زیادہ کسانوں کے ساتھ کام کرتے ہیں",
+              "sd": "نو پارٽنر پنجاب ۽ سنڌ ۾ 3 لک 20 هزار کان وڌيڪ هارين سان ڪم ڪن ٿا"
+            },
+            {
+              "en": "CABI alone has trained more than 31,000 farmers in Sindh",
+              "ur": "صرف کیبی (CABI) نے سندھ میں 31 ہزار سے زیادہ کسانوں کو تربیت دی ہے",
+              "sd": "رڳو ڪيبي (CABI) سنڌ ۾ 31 هزار کان وڌيڪ هارين کي تربيت ڏني آهي"
+            },
+            {
+              "en": "Ask Agriculture Extension which partner works in your area",
+              "ur": "محکمہ زراعت (توسیع) سے پوچھیں کہ آپ کے علاقے میں کون سا پارٹنر کام کرتا ہے",
+              "sd": "زراعت کاتي (توسيع) کان پڇو ته توهان جي علائقي ۾ ڪهڙو پارٽنر ڪم ڪري ٿو"
+            },
+            {
+              "en": "Ghotki: CottonConnect ran the REEL Cotton programme; ask if it still takes farmers",
+              "ur": "گھوٹکی: کاٹن کنیکٹ نے ریل کاٹن پروگرام چلایا؛ پوچھیں کہ کیا یہ اب بھی کسان لیتا ہے",
+              "sd": "گهوٽڪي: ڪاٽن ڪنيڪٽ ريل ڪاٽن پروگرام هلايو؛ پڇو ته ڇا اهو اڃا هاري وٺي ٿو"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Benefit",
+            "ur": "فائدہ",
+            "sd": "فائدو"
+          },
+          "items": [
+            {
+              "en": "Lower pesticide and water costs from the training",
+              "ur": "تربیت سے کیڑے مار دوا اور پانی کا خرچ کم",
+              "sd": "تربيت سان جيت مار دوا ۽ پاڻي جو خرچ گهٽ"
+            },
+            {
+              "en": "Any price premium is small and not guaranteed",
+              "ur": "قیمت میں اضافہ کم ہوتا ہے اور اس کی ضمانت نہیں",
+              "sd": "قيمت ۾ واڌارو ٿورو ٿئي ٿو ۽ ان جي ضمانت ناهي"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dates",
+      "_status": "Sections 2 (dates row), 3.1, 3.4 and 3.7; section 4 messages 3 and 4. Aseel GI registration VERIFIED (1, 2). Organic 3-year conversion CORROBORATED. Processor standards (HACCP/ISO 22000/Halal) from 3.7. GI area, fee and 10-year term NOT VERIFIED/SINGLE-SOURCE: omitted.",
+      "aliases": ["aseel", "aseel dates", "khajoor", "khajur", "gi"],
+      "label": {
+        "en": "Dates (Aseel)",
+        "ur": "کھجور (اصیل)",
+        "sd": "کجور (اصيل)"
+      },
+      "title": {
+        "en": "Dates: Aseel GI and organic",
+        "ur": "کھجور: اصیل جی آئی اور آرگینک",
+        "sd": "کجور: اصيل جي آءِ ۽ آرگينڪ"
+      },
+      "summary": {
+        "en": "For dates, the value is in processing and export, so certificates come through grower groups and processors.",
+        "ur": "کھجور میں اصل فائدہ پروسیسنگ اور برآمد میں ہے، اس لیے سرٹیفکیٹ کاشتکار گروپوں اور پروسیسرز کے ذریعے ملتے ہیں۔",
+        "sd": "کجور ۾ اصل فائدو پروسيسنگ ۽ برآمد ۾ آهي، ان ڪري سرٽيفڪيٽ هارين جي گروپن ۽ پروسيسرن ذريعي ملن ٿا."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Protected name (GI)",
+            "ur": "محفوظ نام (جی آئی)",
+            "sd": "محفوظ نالو (جي آءِ)"
+          },
+          "items": [
+            {
+              "en": "\"Aseel Dates\" was registered on 2 Nov 2023 by Sindh Agriculture Research",
+              "ur": "\"اصیل کھجور\" 2 نومبر 2023 کو سندھ زرعی تحقیق نے رجسٹر کروایا",
+              "sd": "\"اصيل کجور\" 2 نومبر 2023 تي سنڌ زرعي تحقيق رجسٽر ڪرايو"
+            },
+            {
+              "en": "Grower groups and processors can apply to use the name",
+              "ur": "کاشتکار گروپ اور پروسیسر یہ نام استعمال کرنے کے لیے درخواست دے سکتے ہیں",
+              "sd": "هارين جا گروپ ۽ پروسيسر اهو نالو استعمال ڪرڻ لاءِ درخواست ڏئي سگهن ٿا"
+            },
+            {
+              "en": "It helps export branding; little extra price unless you sell through a branded processor",
+              "ur": "یہ برآمدی برانڈنگ میں مدد دیتا ہے؛ برانڈڈ پروسیسر کے بغیر قیمت میں فائدہ کم ہے",
+              "sd": "اهو برآمدي برانڊنگ ۾ مدد ڏئي ٿو؛ برانڊڊ پروسيسر کان سواءِ قيمت ۾ فائدو ٿورو آهي"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Organic for export",
+            "ur": "برآمد کے لیے آرگینک",
+            "sd": "برآمد لاءِ آرگينڪ"
+          },
+          "items": [
+            {
+              "en": "3 years with no synthetic fertiliser or pesticide before the harvest is organic",
+              "ur": "فصل آرگینک ماننے سے پہلے 3 سال مصنوعی کھاد اور کیڑے مار دوا کے بغیر",
+              "sd": "فصل کي آرگينڪ مڃڻ کان اڳ 3 سال مصنوعي ڀاڻ ۽ جيت مار دوا کان سواءِ"
+            },
+            {
+              "en": "It pays only if a buyer has agreed to buy your organic dates",
+              "ur": "یہ تب ہی فائدہ دیتا ہے جب کوئی خریدار آپ کی آرگینک کھجور خریدنے پر راضی ہو",
+              "sd": "اهو تڏهن ئي فائدو ڏئي ٿو جڏهن ڪو خريدار توهان جي آرگينڪ کجور خريد ڪرڻ لاءِ راضي هجي"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "For processors",
+            "ur": "پروسیسرز کے لیے",
+            "sd": "پروسيسرن لاءِ"
+          },
+          "items": [
+            {
+              "en": "Exporting packers need food-safety (HACCP, ISO 22000) and Halal certificates",
+              "ur": "برآمد کرنے والے پیکرز کو فوڈ سیفٹی (HACCP، ISO 22000) اور حلال سرٹیفکیٹ چاہیے",
+              "sd": "برآمد ڪندڙ پيڪرن کي فوڊ سيفٽي (HACCP، ISO 22000) ۽ حلال سرٽيفڪيٽ گهرجي"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mango",
+      "_status": "Sections 2 (mango row), 3.1, 3.5 and 3.6; section 4 messages 4 and 5. Sindhri GI VERIFIED (1, 3). GlobalG.A.P. growers SINGLE-SOURCE, attributed to Dawn (9). Export steps from 3.6 (7). Whether the GI covers Sukkur/Khairpur NOT VERIFIED: not claimed.",
+      "aliases": ["sindhri", "sindhri mango", "aam", "globalgap", "global gap", "globalg.a.p.", "export", "phytosanitary"],
+      "label": {
+        "en": "Mango (Sindhri)",
+        "ur": "آم (سندھڑی)",
+        "sd": "انب (سنڌڙي)"
+      },
+      "title": {
+        "en": "Mango: GI, GlobalG.A.P. and export",
+        "ur": "آم: جی آئی، گلوبل جی اے پی اور برآمد",
+        "sd": "انب: جي آءِ، گلوبل جي اي پي ۽ برآمد"
+      },
+      "summary": {
+        "en": "Mango certificates come through exporters. For export, the biggest risk is pesticide residue.",
+        "ur": "آم کے سرٹیفکیٹ ایکسپورٹر کے ذریعے ملتے ہیں۔ برآمد میں سب سے بڑا خطرہ کیڑے مار دوا کی باقیات ہے۔",
+        "sd": "انب جا سرٽيفڪيٽ ايڪسپورٽر ذريعي ملن ٿا. برآمد ۾ سڀ کان وڏو خطرو جيت مار دوا جي باقيات آهي."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Protected name (GI)",
+            "ur": "محفوظ نام (جی آئی)",
+            "sd": "محفوظ نالو (جي آءِ)"
+          },
+          "items": [
+            {
+              "en": "\"Sindhri Mango\" was registered on 3 Jan 2023 by TDAP; grower groups can apply to use it",
+              "ur": "\"سندھڑی آم\" 3 جنوری 2023 کو ٹی ڈیپ نے رجسٹر کروایا؛ کاشتکار گروپ اسے استعمال کرنے کی درخواست دے سکتے ہیں",
+              "sd": "\"سنڌڙي انب\" 3 جنوري 2023 تي ٽي ڊيپ رجسٽر ڪرايو؛ هارين جا گروپ ان کي استعمال ڪرڻ جي درخواست ڏئي سگهن ٿا"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "GlobalG.A.P.",
+            "ur": "گلوبل جی اے پی",
+            "sd": "گلوبل جي اي پي"
+          },
+          "items": [
+            {
+              "en": "A farming-practice standard supermarkets ask for; groups can be certified together",
+              "ur": "اچھے زرعی طریقوں کا معیار جو سپر مارکیٹیں مانگتی ہیں؛ گروپ اکٹھے سرٹیفائیڈ ہو سکتے ہیں",
+              "sd": "سٺن زرعي طريقن جو معيار جيڪو سپر مارڪيٽون گهرن ٿيون؛ گروپ گڏجي سرٽيفائيڊ ٿي سگهن ٿا"
+            },
+            {
+              "en": "Dawn reports only a few Sindh growers (Mirpurkhas) hold it; some quit over the fees",
+              "ur": "ڈان کے مطابق سندھ میں صرف چند کاشتکاروں (میرپورخاص) کے پاس یہ ہے؛ کچھ نے فیس کی وجہ سے چھوڑ دیا",
+              "sd": "ڊان مطابق سنڌ ۾ صرف ڪجهه هارين (ميرپورخاص) وٽ اهو آهي؛ ڪجهه فيس سبب ڇڏي ڏنو"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "For export",
+            "ur": "برآمد کے لیے",
+            "sd": "برآمد لاءِ"
+          },
+          "items": [
+            {
+              "en": "Exporters need a phytosanitary certificate, hot-water treatment, a registered orchard and a residue test",
+              "ur": "ایکسپورٹر کو فائٹو سینیٹری سرٹیفکیٹ، گرم پانی کا ٹریٹمنٹ، رجسٹرڈ باغ اور باقیات کا ٹیسٹ چاہیے",
+              "sd": "ايڪسپورٽر کي فائٽو سينيٽري سرٽيفڪيٽ، گرم پاڻي جو ٽريٽمينٽ، رجسٽرڊ باغ ۽ باقيات جو ٽيسٽ گهرجي"
+            },
+            {
+              "en": "You: use the label dose and wait the stated days between the last spray and picking",
+              "ur": "آپ: لیبل پر لکھی مقدار استعمال کریں اور آخری اسپرے اور توڑائی کے درمیان بتائے گئے دن انتظار کریں",
+              "sd": "توهان: ليبل تي لکيل مقدار استعمال ڪريو ۽ آخري اسپري ۽ لاهڻ جي وچ ۾ ٻڌايل ڏينهن انتظار ڪريو"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rice",
+      "_status": "Sections 2 (rice row), 3.1 and 3.6; section 4 message 5. EU limits and extra checks CORROBORATED (6). Basmati first GI VERIFIED (1, 2). Old interception counts (61/106/30) NOT VERIFIED: omitted.",
+      "aliases": ["chawal", "basmati", "paddy", "residue", "aflatoxin"],
+      "label": {
+        "en": "Rice",
+        "ur": "چاول",
+        "sd": "چانور"
+      },
+      "title": {
+        "en": "Rice: safe spraying for export",
+        "ur": "چاول: برآمد کے لیے محفوظ اسپرے",
+        "sd": "چانور: برآمد لاءِ محفوظ اسپري"
+      },
+      "summary": {
+        "en": "Rice farmers do not need a certificate of their own, but exporters must meet strict EU limits. Safe spraying matters more than any certificate.",
+        "ur": "چاول کے کسان کو اپنا سرٹیفکیٹ نہیں چاہیے، لیکن ایکسپورٹر کو یورپی یونین کی سخت حدیں پوری کرنی ہوتی ہیں۔ محفوظ اسپرے کسی بھی سرٹیفکیٹ سے زیادہ اہم ہے۔",
+        "sd": "چانورن جي هاريءَ کي پنهنجو سرٽيفڪيٽ نه گهرجي، پر ايڪسپورٽر کي يورپي يونين جون سخت حدون پوريون ڪرڻيون پون ٿيون. محفوظ اسپري ڪنهن به سرٽيفڪيٽ کان وڌيڪ اهم آهي."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Why it matters",
+            "ur": "یہ کیوں اہم ہے",
+            "sd": "اهو ڇو اهم آهي"
+          },
+          "items": [
+            {
+              "en": "Pakistani rice faces extra EU checks for pesticide residue and aflatoxin",
+              "ur": "پاکستانی چاول پر یورپی یونین کیڑے مار دوا کی باقیات اور افلاٹوکسن کی اضافی جانچ کرتی ہے",
+              "sd": "پاڪستاني چانورن تي يورپي يونين جيت مار دوا جي باقيات ۽ افلاٽوڪسن جي اضافي جانچ ڪري ٿي"
+            },
+            {
+              "en": "For most pesticides the EU limit is 0.01 mg/kg, almost zero",
+              "ur": "زیادہ تر کیڑے مار دواؤں کے لیے یورپی حد 0.01 ملی گرام فی کلو ہے، تقریباً صفر",
+              "sd": "گهڻين جيت مار دوائن لاءِ يورپي حد 0.01 ملي گرام في ڪلو آهي، لڳ ڀڳ صفر"
+            },
+            {
+              "en": "Basmati is a protected name (GI), Pakistan's first, registered in 2021",
+              "ur": "باسمتی ایک محفوظ نام (جی آئی) ہے، پاکستان کا پہلا، جو 2021 میں رجسٹر ہوا",
+              "sd": "باسمتي هڪ محفوظ نالو (جي آءِ) آهي، پاڪستان جو پهريون، جيڪو 2021 ۾ رجسٽر ٿيو"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "What you can do",
+            "ur": "آپ کیا کر سکتے ہیں",
+            "sd": "توهان ڇا ڪري سگهو ٿا"
+          },
+          "items": [
+            {
+              "en": "Use the dose written on the label",
+              "ur": "لیبل پر لکھی مقدار استعمال کریں",
+              "sd": "ليبل تي لکيل مقدار استعمال ڪريو"
+            },
+            {
+              "en": "Wait the stated days between the last spray and harvest",
+              "ur": "آخری اسپرے اور کٹائی کے درمیان بتائے گئے دن انتظار کریں",
+              "sd": "آخري اسپري ۽ لاباري جي وچ ۾ ٻڌايل ڏينهن انتظار ڪريو"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wheat",
+      "_status": "Sections 2 (wheat row) and 3.6; section 4 message 6. FSC&RD enforcement from PID (8). Sukkur FSC&RD office NOT VERIFIED: omitted.",
+      "aliases": ["gandum", "seed", "seeds", "beej", "certified seed"],
+      "label": {
+        "en": "Wheat & seed",
+        "ur": "گندم اور بیج",
+        "sd": "ڪڻڪ ۽ ٻج"
+      },
+      "title": {
+        "en": "Wheat: certified seed",
+        "ur": "گندم: تصدیق شدہ بیج",
+        "sd": "ڪڻڪ: تصديق ٿيل ٻج"
+      },
+      "summary": {
+        "en": "For wheat and other field crops, the certificate that matters is on the seed you buy. The Federal Seed Certification & Registration Department (FSC&RD) acts against uncertified seed.",
+        "ur": "گندم اور دوسری فصلوں کے لیے اہم سرٹیفکیٹ وہ ہے جو آپ کے خریدے گئے بیج پر ہو۔ وفاقی محکمہ تصدیق و رجسٹریشن بیج (FSC&RD) غیر تصدیق شدہ بیج کے خلاف کارروائی کرتا ہے۔",
+        "sd": "ڪڻڪ ۽ ٻين فصلن لاءِ اهم سرٽيفڪيٽ اهو آهي جيڪو توهان جي خريد ڪيل ٻج تي هجي. وفاقي ٻج تصديق ۽ رجسٽريشن کاتو (FSC&RD) غير تصديق ٿيل ٻج خلاف ڪارروائي ڪري ٿو."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "When you buy",
+            "ur": "خریدتے وقت",
+            "sd": "خريد ڪرڻ وقت"
+          },
+          "items": [
+            {
+              "en": "Buy certified, tagged seed",
+              "ur": "تصدیق شدہ، ٹیگ والا بیج خریدیں",
+              "sd": "تصديق ٿيل، ٽيگ وارو ٻج خريد ڪريو"
+            },
+            {
+              "en": "Buy only from registered dealers",
+              "ur": "صرف رجسٹرڈ ڈیلر سے خریدیں",
+              "sd": "صرف رجسٽرڊ ڊيلر کان خريد ڪريو"
+            },
+            {
+              "en": "Keep the receipt",
+              "ur": "رسید سنبھال کر رکھیں",
+              "sd": "رسيد سنڀالي رکو"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "_status": "Section 2 (sugarcane row: none found) and 3.5 (GlobalG.A.P. is mainly for fruit and vegetables, group option CORROBORATED). Banana NOT VERIFIED: omitted.",
+      "aliases": ["sugarcane", "ganna", "kamand", "vegetables", "sabzi", "fruit"],
+      "label": {
+        "en": "Sugarcane & other",
+        "ur": "گنا اور دیگر",
+        "sd": "ڪمند ۽ ٻيا"
+      },
+      "title": {
+        "en": "Sugarcane and other crops",
+        "ur": "گنا اور دوسری فصلیں",
+        "sd": "ڪمند ۽ ٻيا فصل"
+      },
+      "summary": {
+        "en": "We found no certification for sugarcane farmers.",
+        "ur": "گنے کے کسانوں کے لیے ہمیں کوئی سرٹیفیکیشن نہیں ملی۔",
+        "sd": "ڪمند جي هارين لاءِ اسان کي ڪا سرٽيفڪيشن نه ملي."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Vegetables and fruit",
+            "ur": "سبزیاں اور پھل",
+            "sd": "ڀاڄيون ۽ ميوا"
+          },
+          "items": [
+            {
+              "en": "Supermarket buyers may ask for GlobalG.A.P., a good-farming-practice standard",
+              "ur": "سپر مارکیٹ کے خریدار گلوبل جی اے پی مانگ سکتے ہیں، جو اچھے زرعی طریقوں کا معیار ہے",
+              "sd": "سپر مارڪيٽ جا خريدار گلوبل جي اي پي گهري سگهن ٿا، جيڪو سٺن زرعي طريقن جو معيار آهي"
+            },
+            {
+              "en": "Small farmers can be certified together as a producer group",
+              "ur": "چھوٹے کسان پروڈیوسر گروپ کے طور پر اکٹھے سرٹیفائیڈ ہو سکتے ہیں",
+              "sd": "ننڍا هاري پروڊيوسر گروپ طور گڏجي سرٽيفائيڊ ٿي سگهن ٿا"
+            },
+            {
+              "en": "Organic is possible for any crop: see *Organic*",
+              "ur": "آرگینک ہر فصل کے لیے ممکن ہے: *آرگینک* دیکھیں",
+              "sd": "آرگينڪ هر فصل لاءِ ممڪن آهي: *آرگينڪ* ڏسو"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organic",
+      "_status": "Section 3.4; section 4 message 3. Conversion periods and group route CORROBORATED; Sindh rules and domestic label NOT FOUND (stated as 'none found'). Certifier names, offices and fees NOT VERIFIED: omitted.",
+      "aliases": ["organic", "namiyati", "ics"],
+      "label": {
+        "en": "Organic (any crop)",
+        "ur": "آرگینک (ہر فصل)",
+        "sd": "آرگينڪ (هر فصل)"
+      },
+      "title": {
+        "en": "Organic certification",
+        "ur": "نامیاتی (آرگینک) سرٹیفیکیشن",
+        "sd": "نامياتي (آرگينڪ) سرٽيفڪيشن"
+      },
+      "summary": {
+        "en": "For crops grown with no synthetic fertiliser or pesticide. It pays only if a buyer has agreed to buy your organic produce.",
+        "ur": "ان فصلوں کے لیے جو مصنوعی کھاد یا کیڑے مار دوا کے بغیر اگائی جائیں۔ یہ تب ہی فائدہ دیتا ہے جب کوئی خریدار آپ کی آرگینک پیداوار خریدنے پر راضی ہو۔",
+        "sd": "انهن فصلن لاءِ جيڪي مصنوعي ڀاڻ يا جيت مار دوا کان سواءِ پوکيا وڃن. اهو تڏهن ئي فائدو ڏئي ٿو جڏهن ڪو خريدار توهان جي آرگينڪ پيداوار خريد ڪرڻ لاءِ راضي هجي."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "How long",
+            "ur": "کتنا وقت",
+            "sd": "ڪيترو وقت"
+          },
+          "items": [
+            {
+              "en": "At least 2 years for crops like wheat and cotton",
+              "ur": "گندم اور کپاس جیسی فصلوں کے لیے کم از کم 2 سال",
+              "sd": "ڪڻڪ ۽ ڪپهه جهڙن فصلن لاءِ گهٽ ۾ گهٽ 2 سال"
+            },
+            {
+              "en": "3 years for dates and mango",
+              "ur": "کھجور اور آم کے لیے 3 سال",
+              "sd": "کجور ۽ انب لاءِ 3 سال"
+            },
+            {
+              "en": "From first contact to a certified sale: often 2 to 4 years",
+              "ur": "پہلے رابطے سے سرٹیفائیڈ فروخت تک: اکثر 2 سے 4 سال",
+              "sd": "پهرين رابطي کان سرٽيفائيڊ وڪري تائين: اڪثر 2 کان 4 سال"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "The group route",
+            "ur": "گروپ کا طریقہ",
+            "sd": "گروپ وارو طريقو"
+          },
+          "items": [
+            {
+              "en": "EU rules let many small farmers be certified together as one group",
+              "ur": "یورپی قواعد کے تحت کئی چھوٹے کسان ایک گروپ کے طور پر اکٹھے سرٹیفائیڈ ہو سکتے ہیں",
+              "sd": "يورپي ضابطن تحت گهڻا ننڍا هاري هڪ گروپ طور گڏجي سرٽيفائيڊ ٿي سگهن ٿا"
+            },
+            {
+              "en": "This is usually organised by an exporter or processor",
+              "ur": "یہ عموماً کوئی ایکسپورٹر یا پروسیسر منظم کرتا ہے",
+              "sd": "اهو عام طور تي ڪو ايڪسپورٽر يا پروسيسر منظم ڪري ٿو"
+            },
+            {
+              "en": "Ask certifiers for a group price; costs vary",
+              "ur": "سرٹیفیکیشن اداروں سے گروپ کی قیمت پوچھیں؛ خرچ مختلف ہوتا ہے",
+              "sd": "سرٽيفڪيشن ادارن کان گروپ جي قيمت پڇو؛ خرچ مختلف ٿئي ٿو"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Good to know",
+            "ur": "یاد رکھیں",
+            "sd": "ياد رکو"
+          },
+          "items": [
+            {
+              "en": "We found no Sindh or national organic scheme for the local market yet",
+              "ur": "مقامی منڈی کے لیے ابھی تک سندھ یا قومی سطح کی کوئی آرگینک اسکیم نہیں ملی",
+              "sd": "مقامي منڊي لاءِ اڃا تائين سنڌ يا قومي سطح جي ڪا آرگينڪ اسڪيم نه ملي"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

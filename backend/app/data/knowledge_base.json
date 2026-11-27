@@ -1,0 +1,219 @@
+{
+  "_note": "PLACEHOLDER knowledge base for keyword search. Each keyword has a weight; an entry is returned only if its score reaches min_score. Keywords cover English, Roman Urdu, Urdu and Sindhi script, so a question in any language finds the entry; the answer is shown in the farmer's chosen language. Urdu/Sindhi text is machine-drafted and needs native review. Will be replaced by RAG over the project's documents.",
+  "min_score": 2,
+  "sources": {
+    "extension_guide": { "en": "Sample extension guide (placeholder)", "ur": "نمونہ زرعی توسیعی گائیڈ (عارضی)", "sd": "نمونو زرعي توسيعي گائيڊ (عارضي)" }
+  },
+  "entries": [
+    {
+      "id": "wheat_sowing_time",
+      "question": { "en": "When should I sow wheat?", "ur": "گندم کب کاشت کریں؟", "sd": "ڪڻڪ ڪڏهن پوکجي؟" },
+      "keywords": {
+        "wheat": 1, "sow": 1, "sowing": 1, "plant": 1, "time": 1, "when": 1, "gandum": 1, "kab": 1,
+        "گندم": 1, "کاشت": 1, "بوائی": 1, "وقت": 1, "کب": 1,
+        "ڪڻڪ": 1, "پوک": 1, "پوکڻ": 1, "پوکجي": 1, "ڪڏهن": 1
+      },
+      "answer": {
+        "en": "In upper Sindh, the best time to sow wheat is *November 1 to November 30*. Late sowing (after mid-December) can reduce yield. Use certified seed and prepare a level field for even irrigation.",
+        "ur": "بالائی سندھ میں گندم کی کاشت کا بہترین وقت *1 سے 30 نومبر* ہے۔ دیر سے کاشت (دسمبر کے وسط کے بعد) پیداوار کم کر سکتی ہے۔ تصدیق شدہ بیج استعمال کریں اور یکساں آبپاشی کے لیے کھیت ہموار کریں۔",
+        "sd": "مٿئين سنڌ ۾ ڪڻڪ پوکڻ جو بهترين وقت *1 کان 30 نومبر* آهي. دير سان پوک (ڊسمبر جي وچ کان پوءِ) پيداوار گهٽائي سگهي ٿي. تصديق ٿيل ٻج استعمال ڪريو ۽ برابر پاڻي ڏيڻ لاءِ زمين سنئين ڪريو."
+      },
+      "source": "extension_guide"
+    },
+    {
+      "id": "wheat_fertilizer",
+      "question": { "en": "How much fertiliser does wheat need?", "ur": "گندم کو کتنی کھاد چاہیے؟", "sd": "ڪڻڪ کي ڪيترو ڀاڻ گهرجي؟" },
+      "keywords": {
+        "wheat": 1, "fertilizer": 2, "fertiliser": 2, "urea": 2, "dap": 2, "dose": 1, "nitrogen": 2, "khad": 2,
+        "گندم": 1, "کھاد": 2, "یوریا": 2, "نائٹروجن": 2, "مقدار": 1,
+        "ڪڻڪ": 1, "ڀاڻ": 2, "يوريا": 2, "نائٽروجن": 2
+      },
+      "answer": {
+        "en": "A common recommendation for wheat is *1 bag DAP per acre at sowing* and *1.5–2 bags urea per acre*, split between the first and second irrigation. A soil test gives the most accurate dose.",
+        "ur": "گندم کے لیے عام سفارش *بوائی کے وقت 1 بوری ڈی اے پی فی ایکڑ* اور *1.5–2 بوری یوریا فی ایکڑ* ہے، جو پہلے اور دوسرے پانی میں تقسیم کر کے دی جائے۔ مٹی کا تجزیہ سب سے درست مقدار بتاتا ہے۔",
+        "sd": "ڪڻڪ لاءِ عام سفارش *پوک وقت 1 ٻوري ڊي اي پي في ايڪڙ* ۽ *1.5–2 ٻوريون يوريا في ايڪڙ* آهي، جيڪا پهرين ۽ ٻئي پاڻي ۾ ورهائي ڏني وڃي. مٽي جي جاچ سڀ کان صحيح مقدار ٻڌائي ٿي."
+      },
+      "source": "extension_guide"
+    },
+    {
+      "id": "wheat_irrigation",
+      "question": { "en": "When should I irrigate wheat?", "ur": "گندم کو پانی کب دیں؟", "sd": "ڪڻڪ کي پاڻي ڪڏهن ڏجي؟" },
+      "keywords": {
+        "wheat": 1, "water": 1, "irrigation": 2, "irrigate": 2, "pani": 2,
+        "گندم": 1, "پانی": 2, "آبپاشی": 2, "سیراب": 2,
+        "ڪڻڪ": 1, "پاڻي": 2, "آبپاشي": 2
+      },
+      "answer": {
+        "en": "Wheat usually needs *4–5 irrigations*. The most important ones are at crown root stage (about 20–25 days after sowing), at tillering, and at flowering and grain filling. Avoid irrigating before strong wind.",
+        "ur": "گندم کو عام طور پر *4–5 پانی* درکار ہوتے ہیں۔ سب سے اہم پانی تاج جڑ کے مرحلے (بوائی کے تقریباً 20–25 دن بعد)، شاخیں نکلنے کے وقت، اور پھول آنے اور دانہ بھرنے کے وقت ہیں۔ تیز ہوا سے پہلے پانی نہ دیں۔",
+        "sd": "ڪڻڪ کي عام طور تي *4–5 پاڻي* گهرجن. سڀ کان اهم پاڻي تاج پاڙ واري مرحلي (پوک کان لڳ ڀڳ 20–25 ڏينهن پوءِ)، ڦٽڻ وقت، ۽ گل اچڻ ۽ داڻو ڀرجڻ وقت آهن. تيز هوا کان اڳ پاڻي نه ڏيو."
+      },
+      "source": "extension_guide"
+    },
+    {
+      "id": "wheat_rust",
+      "question": { "en": "How do I control rust in wheat?", "ur": "گندم میں کنگی پر قابو کیسے پائیں؟", "sd": "ڪڻڪ ۾ ڪنگي تي ضابطو ڪيئن ڪجي؟" },
+      "keywords": {
+        "wheat": 1, "rust": 2, "yellow": 1, "disease": 1, "fungus": 2, "spots": 1, "kungi": 2,
+        "گندم": 1, "کنگی": 2, "زنگ": 2, "بیماری": 1, "پھپھوندی": 2, "دھبے": 1,
+        "ڪڻڪ": 1, "ڪنگي": 2, "بيماري": 1, "فنگس": 2, "داغ": 1
+      },
+      "answer": {
+        "en": "Yellow or brown powdery stripes on wheat leaves are signs of *rust*. Grow resistant varieties, avoid too much urea, and if rust appears early, spray a recommended fungicide after advice from your extension officer.",
+        "ur": "گندم کے پتوں پر پیلی یا بھوری سفوف نما دھاریاں *کنگی (رسٹ)* کی علامت ہیں۔ بیماری کے خلاف مزاحمت رکھنے والی اقسام کاشت کریں، زیادہ یوریا نہ ڈالیں، اور اگر کنگی جلد ظاہر ہو تو زرعی توسیعی افسر کے مشورے سے تجویز کردہ پھپھوندی کش دوا اسپرے کریں۔",
+        "sd": "ڪڻڪ جي پنن تي پيلا يا ناسي پائوڊر جهڙا ليڪا *ڪنگي (رسٽ)* جي نشاني آهن. بيماري جو مقابلو ڪندڙ قسم پوکيو، گهڻي يوريا کان پاسو ڪريو، ۽ جيڪڏهن ڪنگي جلدي ظاهر ٿئي ته زرعي توسيعي آفيسر جي صلاح سان سفارش ڪيل فنگس مار دوا اسپري ڪريو."
+      },
+      "source": "extension_guide"
+    },
+    {
+      "id": "cotton_pink_bollworm",
+      "question": { "en": "How do I control pink bollworm in cotton?", "ur": "کپاس میں گلابی سنڈی پر قابو کیسے پائیں؟", "sd": "ڪپهه ۾ گلابي سنڊي تي ضابطو ڪيئن ڪجي؟" },
+      "keywords": {
+        "cotton": 1, "pink": 1, "bollworm": 2, "boll": 1, "worm": 1, "pest": 1, "insect": 1, "sundi": 2, "kapas": 1,
+        "کپاس": 1, "گلابی": 1, "سنڈی": 2, "کیڑا": 1, "کیڑے": 1,
+        "ڪپهه": 1, "گلابي": 1, "سنڊي": 2, "جيت": 1, "ڪيڙو": 1
+      },
+      "answer": {
+        "en": "To control *pink bollworm*: destroy cotton sticks and crop residue after harvest, use pheromone traps (about 5 per acre) to monitor, avoid late sowing, and spray only when trap catches cross the threshold, using a recommended insecticide.",
+        "ur": "*گلابی سنڈی* پر قابو کے لیے: چنائی کے بعد کپاس کی چھڑیاں اور فصل کی باقیات تلف کریں، نگرانی کے لیے فیرومون ٹریپ (تقریباً 5 فی ایکڑ) لگائیں، دیر سے کاشت نہ کریں، اور صرف اس وقت تجویز کردہ کیڑے مار دوا اسپرے کریں جب ٹریپ میں پکڑے گئے پتنگے مقررہ حد سے بڑھ جائیں۔",
+        "sd": "*گلابي سنڊي* تي ضابطي لاءِ: چونڊ کان پوءِ ڪپهه جون ڪاٺيون ۽ فصل جا بچيل حصا ناس ڪريو، نگراني لاءِ فيرومون ٽريپ (لڳ ڀڳ 5 في ايڪڙ) لڳايو، دير سان پوک نه ڪريو، ۽ رڳو تڏهن سفارش ڪيل جيت مار دوا اسپري ڪريو جڏهن ٽريپ ۾ ڦاٿل پتنگ مقرر حد کان وڌي وڃن."
+      },
+      "source": "extension_guide"
+    },
+    {
+      "id": "cotton_whitefly",
+      "question": { "en": "How do I control whitefly in cotton?", "ur": "کپاس میں سفید مکھی پر قابو کیسے پائیں؟", "sd": "ڪپهه ۾ اڇي مک تي ضابطو ڪيئن ڪجي؟" },
+      "keywords": {
+        "cotton": 1, "whitefly": 2, "white": 1, "fly": 1, "sucking": 1, "pest": 1, "kapas": 1,
+        "کپاس": 1, "سفید": 1, "مکھی": 2, "رس": 1,
+        "ڪپهه": 1, "اڇي": 1, "مک": 2
+      },
+      "answer": {
+        "en": "For *whitefly*: check the underside of leaves twice a week, remove weeds around the field, use yellow sticky traps, and avoid unnecessary early sprays that kill natural enemies. Spray only when numbers are high.",
+        "ur": "*سفید مکھی* کے لیے: ہفتے میں دو بار پتوں کی نچلی سطح چیک کریں، کھیت کے ارد گرد جڑی بوٹیاں ختم کریں، پیلے چپکنے والے ٹریپ استعمال کریں، اور غیر ضروری ابتدائی اسپرے نہ کریں جو دوست کیڑوں کو مار دیتے ہیں۔ صرف تعداد زیادہ ہونے پر اسپرے کریں۔",
+        "sd": "*اڇي مک* لاءِ: هفتي ۾ ٻه ڀيرا پنن جي هيٺين پاسي کي چيڪ ڪريو، فصل جي آس پاس گاهه ختم ڪريو، پيلا چنبڙندڙ ٽريپ استعمال ڪريو، ۽ غير ضروري شروعاتي اسپري نه ڪريو جيڪي دوست جيتن کي ماري ڇڏين ٿا. رڳو تعداد وڌيڪ هجڻ تي اسپري ڪريو."
+      },
+      "source": "extension_guide"
+    },
+    {
+      "id": "cotton_sowing",
+      "question": { "en": "When should I sow cotton?", "ur": "کپاس کب کاشت کریں؟", "sd": "ڪپهه ڪڏهن پوکجي؟" },
+      "keywords": {
+        "cotton": 1, "sow": 1, "sowing": 1, "plant": 1, "time": 1, "when": 1, "kapas": 1, "kab": 1,
+        "کپاس": 1, "کاشت": 1, "بوائی": 1, "وقت": 1, "کب": 1,
+        "ڪپهه": 1, "پوک": 1, "پوکڻ": 1, "پوکجي": 1, "ڪڏهن": 1
+      },
+      "answer": {
+        "en": "In upper Sindh, cotton is usually sown from *mid-March to the end of April*. Early sowing helps avoid the worst pink bollworm pressure later in the season.",
+        "ur": "بالائی سندھ میں کپاس عام طور پر *مارچ کے وسط سے اپریل کے آخر* تک کاشت کی جاتی ہے۔ جلد کاشت موسم کے آخر میں گلابی سنڈی کے شدید حملے سے بچنے میں مدد دیتی ہے۔",
+        "sd": "مٿئين سنڌ ۾ ڪپهه عام طور تي *مارچ جي وچ کان اپريل جي آخر* تائين پوکي ويندي آهي. جلدي پوک موسم جي آخر ۾ گلابي سنڊي جي سخت حملي کان بچڻ ۾ مدد ڪري ٿي."
+      },
+      "source": "extension_guide"
+    },
+    {
+      "id": "rice_transplanting",
+      "question": { "en": "When should I transplant rice?", "ur": "چاول کی پنیری کب منتقل کریں؟", "sd": "سارن جي پنيري ڪڏهن لڳائجي؟" },
+      "keywords": {
+        "rice": 1, "paddy": 1, "transplant": 2, "transplanting": 2, "nursery": 2, "seedling": 1, "chawal": 1,
+        "چاول": 1, "دھان": 1, "پنیری": 2, "منتقل": 1,
+        "چانور": 1, "سارا": 1, "سارن": 1, "پنيري": 2, "لڳائڻ": 1
+      },
+      "answer": {
+        "en": "Transplant rice seedlings when they are *25–35 days old*, usually from mid-June to mid-July. Plant 2–3 seedlings per hill and keep 2–3 inches of standing water in the first weeks.",
+        "ur": "چاول کی پنیری *25–35 دن کی عمر* میں منتقل کریں، عام طور پر جون کے وسط سے جولائی کے وسط تک۔ ہر جگہ 2–3 پودے لگائیں اور پہلے ہفتوں میں 2–3 انچ کھڑا پانی رکھیں۔",
+        "sd": "سارن جي پنيري *25–35 ڏينهن جي عمر* ۾ لڳايو، عام طور تي جون جي وچ کان جولاءِ جي وچ تائين. هر جاءِ تي 2–3 ٻوٽا لڳايو ۽ شروعاتي هفتن ۾ 2–3 انچ بيٺل پاڻي رکو."
+      },
+      "source": "extension_guide"
+    },
+    {
+      "id": "sugarcane_planting",
+      "question": { "en": "When should I plant sugarcane?", "ur": "گنا کب کاشت کریں؟", "sd": "ڪمند ڪڏهن پوکجي؟" },
+      "keywords": {
+        "sugarcane": 1, "cane": 1, "plant": 1, "planting": 1, "sow": 1, "time": 1, "when": 1, "ganna": 1, "kab": 1,
+        "گنا": 1, "گنے": 1, "کاشت": 1, "وقت": 1, "کب": 1,
+        "ڪمند": 1, "پوک": 1, "پوکڻ": 1, "پوکجي": 1, "ڪڏهن": 1
+      },
+      "answer": {
+        "en": "Sugarcane in Sindh is planted in two seasons: *autumn (September–October)*, which gives a better yield, and *spring (February–March)*. Use healthy 3-bud setts from a disease-free crop.",
+        "ur": "سندھ میں گنا دو موسموں میں کاشت ہوتا ہے: *خزاں (ستمبر–اکتوبر)*، جس سے زیادہ پیداوار ملتی ہے، اور *بہار (فروری–مارچ)*۔ بیماری سے پاک فصل سے صحت مند تین آنکھوں والے سمے استعمال کریں۔",
+        "sd": "سنڌ ۾ ڪمند ٻن موسمن ۾ پوکيو ويندو آهي: *سرءُ (سيپٽمبر–آڪٽوبر)*، جنهن مان وڌيڪ پيداوار ملي ٿي، ۽ *بهار (فيبروري–مارچ)*. بيماري کان پاڪ فصل مان صحتمند ٽن اکين وارا ٽڪر استعمال ڪريو."
+      },
+      "source": "extension_guide"
+    },
+    {
+      "id": "dates_harvest",
+      "question": { "en": "How do I harvest and store dates?", "ur": "کھجور کیسے اتاریں اور ذخیرہ کریں؟", "sd": "کجيون ڪيئن لاهجن ۽ سانڍجن؟" },
+      "keywords": {
+        "dates": 1, "khajoor": 2, "khajur": 2, "palm": 1, "harvest": 1, "store": 1, "drying": 1, "chhuhara": 2,
+        "کھجور": 2, "چھوہارا": 2, "ذخیرہ": 1, "سکھانا": 1, "اتارنا": 1,
+        "کجي": 2, "کجيون": 2, "کارڪ": 2, "لاباري": 1, "سانڍڻ": 1, "سڪائڻ": 1
+      },
+      "answer": {
+        "en": "Harvest dates at the right stage for your market (doka for fresh, dang for drying). Dry them on clean mats or in a solar dryer, never on bare soil, and store them in clean, airy, rodent-proof places.",
+        "ur": "اپنی منڈی کے مطابق صحیح مرحلے پر کھجور اتاریں (تازہ کے لیے ڈوکا، سکھانے کے لیے ڈنگ)۔ انہیں صاف چٹائیوں یا سولر ڈرائر پر سکھائیں، کبھی ننگی زمین پر نہیں، اور صاف، ہوادار اور چوہوں سے محفوظ جگہ پر ذخیرہ کریں۔",
+        "sd": "پنهنجي منڊي موجب صحيح مرحلي تي کجيون لاهيو (تازين لاءِ ڊوڪا، سڪائڻ لاءِ ڊنگ). انهن کي صاف تڏن يا سولر ڊرائر تي سڪايو، ڪڏهن به اگهاڙي زمين تي نه، ۽ صاف، هوادار ۽ ڪوئن کان محفوظ جاءِ تي سانڍيو."
+      },
+      "source": "extension_guide"
+    },
+    {
+      "id": "soil_testing",
+      "question": { "en": "Why and how should I test my soil?", "ur": "مٹی کا تجزیہ کیوں اور کیسے کریں؟", "sd": "مٽي جي جاچ ڇو ۽ ڪيئن ڪجي؟" },
+      "keywords": {
+        "soil": 2, "test": 1, "testing": 1, "sample": 1, "lab": 1, "mitti": 2,
+        "مٹی": 2, "تجزیہ": 1, "ٹیسٹ": 1, "نمونہ": 1, "لیبارٹری": 1,
+        "مٽي": 2, "جاچ": 1, "ٽيسٽ": 1, "نمونو": 1, "ليبارٽري": 1
+      },
+      "answer": {
+        "en": "A *soil test* tells you which nutrients your field needs, so you don't waste money on fertiliser. Take samples from 5–10 spots in the field at 6 inches depth, mix them, and take about 0.5 kg to the nearest soil testing laboratory.",
+        "ur": "*مٹی کا تجزیہ* بتاتا ہے کہ آپ کے کھیت کو کن غذائی اجزاء کی ضرورت ہے، تاکہ کھاد پر پیسہ ضائع نہ ہو۔ کھیت کے 5–10 مقامات سے 6 انچ گہرائی تک نمونے لیں، انہیں ملائیں، اور تقریباً آدھا کلو قریبی مٹی ٹیسٹنگ لیبارٹری لے جائیں۔",
+        "sd": "*مٽي جي جاچ* ٻڌائي ٿي ته توهان جي زمين کي ڪهڙن غذائي جزن جي ضرورت آهي، ته جيئن ڀاڻ تي پئسا ضايع نه ٿين. زمين جي 5–10 هنڌن کان 6 انچ اونهائي تائين نمونا وٺو، انهن کي ملايو، ۽ لڳ ڀڳ اڌ ڪلو ويجهي مٽي جاچ ليبارٽري ۾ کڻي وڃو."
+      },
+      "source": "extension_guide"
+    },
+    {
+      "id": "heat_stress",
+      "question": { "en": "How do I protect crops in a heatwave?", "ur": "شدید گرمی میں فصل کو کیسے بچائیں؟", "sd": "سخت گرمي ۾ فصل کي ڪيئن بچائجي؟" },
+      "keywords": {
+        "heat": 2, "heatwave": 2, "hot": 1, "temperature": 1, "protect": 1, "garmi": 2,
+        "گرمی": 2, "لو": 2, "گرم": 1, "درجہ": 1, "بچاؤ": 1,
+        "گرمي": 2, "لڪ": 2, "بچاءُ": 1
+      },
+      "answer": {
+        "en": "During a *heatwave*: irrigate in the evening or early morning, keep the soil moist with light irrigations, avoid spraying in the afternoon heat, and give livestock shade and plenty of water.",
+        "ur": "*لو (شدید گرمی)* کے دوران: شام یا صبح سویرے پانی دیں، ہلکی آبپاشی سے مٹی کو نم رکھیں، دوپہر کی گرمی میں اسپرے نہ کریں، اور مویشیوں کو سایہ اور وافر پانی دیں۔",
+        "sd": "*لُڪ (سخت گرمي)* دوران: شام يا صبح سوير پاڻي ڏيو، هلڪي پاڻي سان مٽي کي آلو رکو، منجهند جي گرمي ۾ اسپري نه ڪريو، ۽ مال کي ڇانو ۽ گهڻو پاڻي ڏيو."
+      },
+      "source": "extension_guide"
+    },
+    {
+      "id": "water_saving",
+      "question": { "en": "How can I save irrigation water?", "ur": "آبپاشی کا پانی کیسے بچائیں؟", "sd": "پاڻي ڪيئن بچائجي؟" },
+      "keywords": {
+        "water": 1, "save": 2, "saving": 2, "shortage": 2, "irrigation": 1, "laser": 2, "bachat": 2,
+        "پانی": 1, "بچت": 2, "بچانا": 2, "بچائیں": 2, "قلت": 2, "کمی": 2, "لیزر": 2,
+        "پاڻي": 1, "بچائڻ": 2, "بچائجي": 2, "کوٽ": 2, "ليزر": 2
+      },
+      "answer": {
+        "en": "To save water: level your field (laser levelling saves 20–25% water), use bed and furrow planting, irrigate according to crop stage, and repair watercourses to stop losses.",
+        "ur": "پانی بچانے کے لیے: کھیت ہموار کریں (لیزر لیولنگ سے 20–25٪ پانی بچتا ہے)، بیڈ اور کھیلی پر کاشت کریں، فصل کے مرحلے کے مطابق پانی دیں، اور پانی کا ضیاع روکنے کے لیے کھالوں کی مرمت کریں۔",
+        "sd": "پاڻي بچائڻ لاءِ: زمين سنئين ڪريو (ليزر ليولنگ سان 20–25 سيڪڙو پاڻي بچي ٿو)، بيڊ ۽ کڏ تي پوک ڪريو، فصل جي مرحلي موجب پاڻي ڏيو، ۽ نقصان روڪڻ لاءِ واٽر ڪورسن جي مرمت ڪريو."
+      },
+      "source": "extension_guide"
+    },
+    {
+      "id": "seed_quality",
+      "question": { "en": "Where can I get good seed?", "ur": "اچھا بیج کہاں سے ملے گا؟", "sd": "سٺو ٻج ڪٿان ملندو؟" },
+      "keywords": {
+        "seed": 2, "seeds": 2, "certified": 1, "variety": 1, "quality": 1, "beej": 2,
+        "بیج": 2, "تصدیق": 1, "اقسام": 1, "قسم": 1, "معیاری": 1,
+        "ٻج": 2, "تصديق": 1, "معياري": 1
+      },
+      "answer": {
+        "en": "Buy *certified seed* from registered dealers or the Sindh Seed Corporation, and keep the bag tag and receipt. Ask your extension officer which varieties are approved for your district.",
+        "ur": "رجسٹرڈ ڈیلرز یا سندھ سیڈ کارپوریشن سے *تصدیق شدہ بیج* خریدیں، اور بوری کا ٹیگ اور رسید سنبھال کر رکھیں۔ اپنے زرعی توسیعی افسر سے پوچھیں کہ آپ کے ضلع کے لیے کون سی اقسام منظور شدہ ہیں۔",
+        "sd": "رجسٽرڊ ڊيلرن يا سنڌ سيڊ ڪارپوريشن کان *تصديق ٿيل ٻج* خريد ڪريو، ۽ ٻوري جو ٽيگ ۽ رسيد سنڀالي رکو. پنهنجي زرعي توسيعي آفيسر کان پڇو ته توهان جي ضلعي لاءِ ڪهڙا قسم منظور ٿيل آهن."
+      },
+      "source": "extension_guide"
+    }
+  ]
+}

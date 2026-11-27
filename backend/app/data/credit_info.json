@@ -1,0 +1,875 @@
+{
+  "_note": "Credit content from the project credit booklet and facilitator notes (November 2026). Several items are still 'to verify' with SBP and finance experts; update this file when their feedback arrives. Urdu/Sindhi are machine-drafted and need native review.",
+  "programmes": [
+    {
+      "id": "zarkhez",
+      "label": {
+        "en": "Zarkhez-e loan",
+        "ur": "زرخیز-ای قرض",
+        "sd": "زرخيز-اي قرض"
+      },
+      "title": {
+        "en": "Zarkhez-e: collateral-free crop loan",
+        "ur": "زرخیز-ای: بغیر ضمانت زرعی قرض",
+        "sd": "زرخيز-اي: بنا ضمانت زرعي قرض"
+      },
+      "summary": {
+        "en": "A State Bank of Pakistan scheme for seed, fertiliser, pesticide and diesel. No land mortgage. Offered by participating banks, including ZTBL and HBL.",
+        "ur": "اسٹیٹ بینک آف پاکستان کی اسکیم، بیج، کھاد، کیڑے مار دوا اور ڈیزل کے لیے۔ زمین گروی نہیں رکھی جاتی۔ ZTBL اور HBL سمیت شامل بینک یہ قرض دیتے ہیں۔",
+        "sd": "اسٽيٽ بئنڪ آف پاڪستان جي اسڪيم، ٻج، ڀاڻ، جيت مار دوا ۽ ڊيزل لاءِ. زمين گروي نه رکي ويندي. ZTBL ۽ HBL سميت شامل بئنڪ هي قرض ڏين ٿا."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Who can apply",
+            "ur": "کون درخواست دے سکتا ہے",
+            "sd": "ڪير درخواست ڏئي سگهي ٿو"
+          },
+          "items": [
+            {
+              "en": "Landowner or tenant (hari) with up to 16 acres in Sindh",
+              "ur": "سندھ میں 16 ایکڑ تک زمین والا مالک یا ہاری",
+              "sd": "سنڌ ۾ 16 ايڪڙن تائين زمين وارو مالڪ يا هاري"
+            },
+            {
+              "en": "Age 21 to 60, one application per farmer, clean credit record",
+              "ur": "عمر 21 سے 60 سال، ہر کسان کی ایک درخواست، صاف کریڈٹ ریکارڈ",
+              "sd": "عمر 21 کان 60 سال، هر هاري جي هڪ درخواست، صاف ڪريڊٽ رڪارڊ"
+            },
+            {
+              "en": "Haris and women can qualify with a cultivation entry from the tapedar, or a written lease / sharecrop agreement",
+              "ur": "ہاری اور خواتین تپیدار کے پاس کاشت کے اندراج یا تحریری ٹھیکے / بٹائی معاہدے سے اہل ہو سکتے ہیں",
+              "sd": "هاري ۽ عورتون تپيدار وٽ پوکيءَ جي اندراج يا لکيل ٺيڪي / ڀاڱي واري معاهدي سان اهل ٿي سگهن ٿا"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Loan and cost",
+            "ur": "قرض اور لاگت",
+            "sd": "قرض ۽ لاڳت"
+          },
+          "items": [
+            {
+              "en": "Up to Rs 1 lakh per acre: landowner up to Rs 10 lakh, tenant up to Rs 5 lakh",
+              "ur": "فی ایکڑ 1 لاکھ روپے تک: مالک 10 لاکھ تک، ہاری 5 لاکھ تک",
+              "sd": "في ايڪڙ 1 لک رپيا تائين: مالڪ 10 لک تائين، هاري 5 لک تائين"
+            },
+            {
+              "en": "Profit varies by bank: Rs 18 to 38 per Rs 100 per year. Compare banks before you choose",
+              "ur": "منافع ہر بینک کا الگ ہے: ہر 100 روپے پر سالانہ 18 سے 38 روپے۔ بینک چننے سے پہلے موازنہ کریں",
+              "sd": "منافعو هر بئنڪ جو الڳ آهي: هر 100 رپين تي ساليانو 18 کان 38 رپيا. بئنڪ چونڊڻ کان اڳ ڀيٽ ڪريو"
+            },
+            {
+              "en": "Rs 1,200 application fee, paid on the portal only",
+              "ur": "1,200 روپے درخواست فیس، صرف پورٹل پر ادا کریں",
+              "sd": "1,200 رپيا درخواست في، رڳو پورٽل تي ادا ڪريو"
+            },
+            {
+              "en": "At least 75% is given as inputs from approved dealers; cash up to 25% (owner) or 15% (tenant)",
+              "ur": "کم از کم 75% منظور شدہ ڈیلر سے سامان کی صورت میں؛ نقد 25% تک (مالک) یا 15% (ہاری)",
+              "sd": "گهٽ ۾ گهٽ 75% منظور ٿيل ڊيلر کان سامان جي صورت ۾؛ نقد 25% تائين (مالڪ) يا 15% (هاري)"
+            },
+            {
+              "en": "Repay once, at harvest, within 12 months",
+              "ur": "فصل کٹنے پر 12 ماہ کے اندر ایک ہی بار واپسی",
+              "sd": "فصل لهڻ تي 12 مهينن اندر هڪ ئي ڀيري واپسي"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Security and insurance",
+            "ur": "ضمانت اور بیمہ",
+            "sd": "ضمانت ۽ بيمو"
+          },
+          "items": [
+            {
+              "en": "No land mortgage. ZTBL asks for 2 guarantors (a landowner can stand guarantor for 2 haris)",
+              "ur": "زمین گروی نہیں۔ ZTBL دو ضامن مانگتا ہے (ایک زمیندار دو ہاریوں کا ضامن بن سکتا ہے)",
+              "sd": "زمين گروي ناهي. ZTBL ٻه ضامن گهري ٿو (هڪ زميندار ٻن هارين جو ضامن ٿي سگهي ٿو)"
+            },
+            {
+              "en": "Life insurance included; crop insurance for the 5 major crops, premium paid by the government up to 25 acres",
+              "ur": "زندگی کا بیمہ شامل؛ 5 بڑی فصلوں کا بیمہ، 25 ایکڑ تک پریمیم حکومت ادا کرتی ہے",
+              "sd": "زندگيءَ جو بيمو شامل؛ 5 وڏن فصلن جو بيمو، 25 ايڪڙن تائين پريميم حڪومت ڀري ٿي"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Documents",
+            "ur": "دستاویزات",
+            "sd": "دستاويز"
+          },
+          "items": [
+            {
+              "en": "CNIC, SIM in your own name, 2 photos, land record (Form VII) or cultivation entry / written lease",
+              "ur": "شناختی کارڈ، اپنے نام کی سم، 2 تصاویر، زمین کا ریکارڈ (فارم VII) یا کاشت کا اندراج / تحریری ٹھیکہ",
+              "sd": "شناختي ڪارڊ، پنهنجي نالي جي سم، 2 فوٽو، زمين جو رڪارڊ (فارم VII) يا پوکيءَ جو اندراج / لکيل ٺيڪو"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "How to apply",
+            "ur": "درخواست کیسے دیں",
+            "sd": "درخواست ڪيئن ڏيو"
+          },
+          "items": [
+            {
+              "en": "Zarkhez-e app or zarkheze.gov.pk, or ask a bank branch to help",
+              "ur": "زرخیز-ای ایپ یا zarkheze.gov.pk، یا بینک برانچ سے مدد لیں",
+              "sd": "زرخيز-اي ايپ يا zarkheze.gov.pk، يا بئنڪ برانچ کان مدد وٺو"
+            },
+            {
+              "en": "Sign up, enter the OTP, pay Rs 1,200, fill the form (crop, land, mark your field on the map), choose a bank and submit",
+              "ur": "سائن اپ کریں، OTP درج کریں، 1,200 روپے ادا کریں، فارم بھریں (فصل، زمین، نقشے پر کھیت)، بینک چنیں اور جمع کرائیں",
+              "sd": "سائن اپ ڪريو، OTP لکو، 1,200 رپيا ادا ڪريو، فارم ڀريو (فصل، زمين، نقشي تي ٻنيءَ جي نشاندهي)، بئنڪ چونڊيو ۽ جمع ڪرايو"
+            },
+            {
+              "en": "Collect inputs from an approved dealer; the cash part comes to your account",
+              "ur": "منظور شدہ ڈیلر سے سامان لیں؛ نقد حصہ آپ کے اکاؤنٹ میں آتا ہے",
+              "sd": "منظور ٿيل ڊيلر کان سامان وٺو؛ نقد حصو اوهان جي اڪائونٽ ۾ اچي ٿو"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hari_card",
+      "label": {
+        "en": "Benazir Hari Card",
+        "ur": "بینظیر ہاری کارڈ",
+        "sd": "بينظير هاري ڪارڊ"
+      },
+      "title": {
+        "en": "Benazir Hari Card (Government of Sindh)",
+        "ur": "بینظیر ہاری کارڈ (حکومت سندھ)",
+        "sd": "بينظير هاري ڪارڊ (سنڌ حڪومت)"
+      },
+      "summary": {
+        "en": "A subsidy card, not a loan. Support is paid directly onto the card through Sindh Bank, with no middleman.",
+        "ur": "یہ سبسڈی کارڈ ہے، قرض نہیں۔ امداد سندھ بینک کے ذریعے براہ راست کارڈ میں آتی ہے، کوئی بیچ کا آدمی نہیں۔",
+        "sd": "هي سبسڊي ڪارڊ آهي، قرض ناهي. امداد سنڌ بئنڪ ذريعي سڌو ڪارڊ ۾ اچي ٿي، ڪو وچ وارو ماڻهو ناهي."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Who can apply",
+            "ur": "کون درخواست دے سکتا ہے",
+            "sd": "ڪير درخواست ڏئي سگهي ٿو"
+          },
+          "items": [
+            {
+              "en": "Sindh farmers and growers (haris and abadgars) with up to 25 acres",
+              "ur": "سندھ کے کسان اور کاشتکار (ہاری اور آبادگار)، 25 ایکڑ تک",
+              "sd": "سنڌ جا هاري ۽ آبادگار، 25 ايڪڙن تائين"
+            },
+            {
+              "en": "Tenants: the landowner enters the tenant (lease or sharecrop) in his form. No separate route for landless haris found yet",
+              "ur": "ہاری: زمیندار اپنے فارم میں ہاری (ٹھیکہ یا بٹائی) کا اندراج کرتا ہے۔ بے زمین ہاریوں کا الگ طریقہ ابھی نہیں ملا",
+              "sd": "هاري: زميندار پنهنجي فارم ۾ هاريءَ (ٺيڪو يا ڀاڱو) جو اندراج ڪري ٿو. بي زمين هارين لاءِ الڳ طريقو اڃا نه مليو آهي"
+            },
+            {
+              "en": "Agriculture Extension says the card can also reach women farmers",
+              "ur": "محکمہ زراعت توسیع کے مطابق یہ کارڈ خواتین کسانوں کے لیے بھی ہے",
+              "sd": "زراعت توسيع کاتي موجب هي ڪارڊ عورتن هارين لاءِ پڻ آهي"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Benefits",
+            "ur": "فوائد",
+            "sd": "فائدا"
+          },
+          "items": [
+            {
+              "en": "Wheat fertiliser subsidy (last year: 1 bag DAP + 2 bags urea per acre)",
+              "ur": "گندم کے لیے کھاد پر سبسڈی (پچھلے سال: فی ایکڑ 1 بوری DAP + 2 بوری یوریا)",
+              "sd": "ڪڻڪ لاءِ ڀاڻ تي سبسڊي (گذريل سال: في ايڪڙ 1 ٻورِي DAP + 2 ٻوريون يوريا)"
+            },
+            {
+              "en": "Extra Rs 2,000 per 40 kg of wheat sold to the Food Department",
+              "ur": "محکمہ خوراک کو بیچی گئی گندم پر فی 40 کلو 2,000 روپے اضافی",
+              "sd": "خوراڪ کاتي کي وڪيل ڪڻڪ تي في 40 ڪلو 2,000 رپيا اضافي"
+            },
+            {
+              "en": "An interest-free loan was announced, but no running scheme has been found. Ask the office whether it has started",
+              "ur": "بلا سود قرض کا اعلان ہوا تھا مگر کوئی جاری اسکیم نہیں ملی۔ دفتر سے پوچھیں کہ شروع ہوئی یا نہیں",
+              "sd": "بنا وياج قرض جو اعلان ٿيو هو پر ڪا هلندڙ اسڪيم نه ملي. آفيس کان پڇو ته شروع ٿي آهي يا نه"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Documents",
+            "ur": "دستاویزات",
+            "sd": "دستاويز"
+          },
+          "items": [
+            {
+              "en": "CNIC, Form VII, SIM in your own name",
+              "ur": "شناختی کارڈ، فارم VII، اپنے نام کی سم",
+              "sd": "شناختي ڪارڊ، فارم VII، پنهنجي نالي جي سم"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "How to apply",
+            "ur": "درخواست کیسے دیں",
+            "sd": "درخواست ڪيئن ڏيو"
+          },
+          "items": [
+            {
+              "en": "Registration is completely free",
+              "ur": "رجسٹریشن بالکل مفت ہے",
+              "sd": "رجسٽريشن بلڪل مفت آهي"
+            },
+            {
+              "en": "Agriculture Extension office or benazirharicard.gos.pk",
+              "ur": "زراعت توسیع دفتر یا benazirharicard.gos.pk",
+              "sd": "زراعت توسيع آفيس يا benazirharicard.gos.pk"
+            },
+            {
+              "en": "Helpline: 0311-1646111",
+              "ur": "ہیلپ لائن: 0311-1646111",
+              "sd": "هيلپ لائين: 0311-1646111"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sindh_bank",
+      "label": {
+        "en": "Sindh Bank loans",
+        "ur": "سندھ بینک کے قرض",
+        "sd": "سنڌ بئنڪ جا قرض"
+      },
+      "title": {
+        "en": "Sindh Bank agricultural loans",
+        "ur": "سندھ بینک کے زرعی قرض",
+        "sd": "سنڌ بئنڪ جا زرعي قرض"
+      },
+      "summary": {
+        "en": "Sindh Bank offers a crop loan (Benazir Zarai Khushhali), a revolving credit scheme and a tractor scheme. Apply at a Sindh Bank branch.",
+        "ur": "سندھ بینک فصل کا قرض (بینظیر زرعی خوشحالی)، ریوالونگ کریڈٹ اسکیم اور ٹریکٹر اسکیم دیتا ہے۔ سندھ بینک برانچ میں درخواست دیں۔",
+        "sd": "سنڌ بئنڪ فصل جو قرض (بينظير زرعي خوشحالي)، ريوالونگ ڪريڊٽ اسڪيم ۽ ٽريڪٽر اسڪيم ڏئي ٿو. سنڌ بئنڪ برانچ ۾ درخواست ڏيو."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Benazir Zarai Khushhali (crop loan)",
+            "ur": "بینظیر زرعی خوشحالی (فصل کا قرض)",
+            "sd": "بينظير زرعي خوشحالي (فصل جو قرض)"
+          },
+          "items": [
+            {
+              "en": "For growers of wheat, cotton, rice and sugarcane (haris and abadgars) with a clean credit record",
+              "ur": "گندم، کپاس، چاول اور گنے کے کاشتکاروں (ہاری اور آبادگار) کے لیے، صاف کریڈٹ ریکارڈ ضروری",
+              "sd": "ڪڻڪ، ڪپهه، چانورن ۽ ڪمند جي پوکيندڙن (هاري ۽ آبادگار) لاءِ، صاف ڪريڊٽ رڪارڊ ضروري"
+            },
+            {
+              "en": "Per acre: rice Rs 95,000, wheat Rs 1 lakh, cotton Rs 1.02 lakh, sugarcane Rs 1.42 lakh. Maximum Rs 50 lakh",
+              "ur": "فی ایکڑ: چاول 95,000، گندم 1 لاکھ، کپاس 1.02 لاکھ، گنا 1.42 لاکھ روپے۔ زیادہ سے زیادہ 50 لاکھ",
+              "sd": "في ايڪڙ: چانور 95,000، ڪڻڪ 1 لک، ڪپهه 1.02 لک، ڪمند 1.42 لک رپيا. وڌ ۾ وڌ 50 لک"
+            },
+            {
+              "en": "Profit: 6-month KIBOR + 3.5% (about 16% a year in November 2026)",
+              "ur": "منافع: 6 ماہ KIBOR + 3.5% (نومبر 2026 میں تقریباً 16% سالانہ)",
+              "sd": "منافعو: 6 مهينا KIBOR + 3.5% (نومبر 2026 ۾ لڳ ڀڳ 16% ساليانو)"
+            },
+            {
+              "en": "Repay once within 12 months (sugarcane: 18 months)",
+              "ur": "12 ماہ میں ایک ہی بار واپسی (گنا: 18 ماہ)",
+              "sd": "12 مهينن ۾ هڪ ئي ڀيري واپسي (ڪمند: 18 مهينا)"
+            },
+            {
+              "en": "No land mortgage: one reliable guarantor (or a government employee) and 2 cheques. Crop insurance included",
+              "ur": "زمین گروی نہیں: ایک قابل اعتماد ضامن (یا سرکاری ملازم) اور 2 چیک۔ فصل کا بیمہ شامل",
+              "sd": "زمين گروي ناهي: هڪ ڀروسي جوڳو ضامن (يا سرڪاري ملازم) ۽ 2 چيڪ. فصل جو بيمو شامل"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Documents",
+            "ur": "دستاویزات",
+            "sd": "دستاويز"
+          },
+          "items": [
+            {
+              "en": "Guarantor, 2 cheques, crop verification from the tapedar, Sindh Bank account. The bank visits your field",
+              "ur": "ضامن، 2 چیک، تپیدار سے فصل کی تصدیق، سندھ بینک اکاؤنٹ۔ بینک کھیت کا دورہ کرتا ہے",
+              "sd": "ضامن، 2 چيڪ، تپيدار کان فصل جي تصديق، سنڌ بئنڪ اڪائونٽ. بئنڪ ٻنيءَ جو دورو ڪري ٿو"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Other Sindh Bank schemes",
+            "ur": "سندھ بینک کی دیگر اسکیمیں",
+            "sd": "سنڌ بئنڪ جون ٻيون اسڪيمون"
+          },
+          "items": [
+            {
+              "en": "Benazir Revolving Credit: a running limit for 3 years. Ask the branch for full terms",
+              "ur": "بینظیر ریوالونگ کریڈٹ: 3 سال کے لیے جاری حد۔ مکمل شرائط برانچ سے پوچھیں",
+              "sd": "بينظير ريوالونگ ڪريڊٽ: 3 سالن لاءِ هلندڙ حد. مڪمل شرطون برانچ کان پڇو"
+            },
+            {
+              "en": "Abadgar Tractor Scheme: up to 75% of the tractor price, repaid over 5 years; you pay 25%",
+              "ur": "آبادگار ٹریکٹر اسکیم: ٹریکٹر کی قیمت کا 75% تک، 5 سال میں واپسی؛ 25% آپ دیں",
+              "sd": "آبادگار ٽريڪٽر اسڪيم: ٽريڪٽر جي قيمت جو 75% تائين، 5 سالن ۾ واپسي؛ 25% اوهان ڏيو"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pm_youth",
+      "label": {
+        "en": "PM Youth loan",
+        "ur": "وزیراعظم یوتھ قرض",
+        "sd": "وزيراعظم يوٿ قرض"
+      },
+      "title": {
+        "en": "PM Youth Business & Agriculture Loan",
+        "ur": "وزیراعظم یوتھ بزنس اور زرعی قرض",
+        "sd": "وزيراعظم يوٿ ڪاروبار ۽ زرعي قرض"
+      },
+      "summary": {
+        "en": "A Government of Pakistan loan for young men and women aged 21 to 45. Not land-based: any young farmer can apply. 25% of loans are reserved for women.",
+        "ur": "حکومت پاکستان کا قرض، 21 سے 45 سال کے مرد و خواتین کے لیے۔ زمین شرط نہیں: کوئی بھی نوجوان کسان درخواست دے سکتا ہے۔ 25% قرض خواتین کے لیے مخصوص ہیں۔",
+        "sd": "پاڪستان حڪومت جو قرض، 21 کان 45 سالن جي مردن ۽ عورتن لاءِ. زمين شرط ناهي: ڪو به نوجوان هاري درخواست ڏئي سگهي ٿو. 25% قرض عورتن لاءِ مخصوص آهن."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Loan tiers",
+            "ur": "قرض کے درجے",
+            "sd": "قرض جا درجا"
+          },
+          "items": [
+            {
+              "en": "Tier 1: up to Rs 5 lakh, 0% (interest-free), up to 3 years",
+              "ur": "درجہ 1: 5 لاکھ روپے تک، 0% (بلا سود)، 3 سال تک",
+              "sd": "درجو 1: 5 لک رپيا تائين، 0% (بنا وياج)، 3 سالن تائين"
+            },
+            {
+              "en": "Tier 2: Rs 5 to 15 lakh, 5% a year",
+              "ur": "درجہ 2: 5 سے 15 لاکھ روپے، 5% سالانہ",
+              "sd": "درجو 2: 5 کان 15 لک رپيا، 5% ساليانو"
+            },
+            {
+              "en": "Tier 3: Rs 15 to 75 lakh, 7% a year",
+              "ur": "درجہ 3: 15 سے 75 لاکھ روپے، 7% سالانہ",
+              "sd": "درجو 3: 15 کان 75 لک رپيا، 7% ساليانو"
+            },
+            {
+              "en": "Tiers 2 and 3: development loan up to 8 years, working capital up to 5 years",
+              "ur": "درجہ 2 اور 3: ترقیاتی قرض 8 سال تک، ورکنگ کیپیٹل 5 سال تک",
+              "sd": "درجو 2 ۽ 3: ترقياتي قرض 8 سالن تائين، ورڪنگ ڪيپيٽل 5 سالن تائين"
+            },
+            {
+              "en": "A new 8% tier up to Rs 2.5 crore was reported in November 2026 (not yet confirmed)",
+              "ur": "نومبر 2026 میں 2.5 کروڑ تک 8% کے نئے درجے کی خبر آئی (ابھی تصدیق نہیں ہوئی)",
+              "sd": "نومبر 2026 ۾ 2.5 ڪروڙ تائين 8% واري نئين درجي جي خبر آئي (اڃا تصديق ناهي ٿي)"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Use and conditions",
+            "ur": "استعمال اور شرائط",
+            "sd": "استعمال ۽ شرطون"
+          },
+          "items": [
+            {
+              "en": "For crops, livestock, fisheries, poultry and farm machinery",
+              "ur": "فصل، مویشی، ماہی گیری، پولٹری اور زرعی مشینری کے لیے",
+              "sd": "فصل، مال، مڇي، پولٽري ۽ زرعي مشينري لاءِ"
+            },
+            {
+              "en": "Tiers 1 and 2: personal guarantee only. Tier 3: as per bank policy",
+              "ur": "درجہ 1 اور 2: صرف ذاتی ضمانت۔ درجہ 3: بینک کی پالیسی کے مطابق",
+              "sd": "درجو 1 ۽ 2: رڳو ذاتي ضمانت. درجو 3: بئنڪ جي پاليسي موجب"
+            },
+            {
+              "en": "Own contribution for a new business: 10% (Tiers 1 and 2), 20% (Tier 3)",
+              "ur": "نئے کاروبار کے لیے اپنا حصہ: 10% (درجہ 1 اور 2)، 20% (درجہ 3)",
+              "sd": "نئين ڪاروبار لاءِ پنهنجو حصو: 10% (درجو 1 ۽ 2)، 20% (درجو 3)"
+            },
+            {
+              "en": "No processing fee under the scheme, but some banks charge a small fee. Ask first",
+              "ur": "اسکیم میں پروسیسنگ فیس نہیں، مگر کچھ بینک معمولی فیس لیتے ہیں۔ پہلے پوچھ لیں",
+              "sd": "اسڪيم ۾ پروسيسنگ في ناهي، پر ڪجهه بئنڪ ٿوري في وٺن ٿا. اڳ ۾ پڇي وٺو"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "How to apply",
+            "ur": "درخواست کیسے دیں",
+            "sd": "درخواست ڪيئن ڏيو"
+          },
+          "items": [
+            {
+              "en": "Apply online at pmyp.gov.pk and choose a bank (Tier 1 is mostly through microfinance banks)",
+              "ur": "pmyp.gov.pk پر آن لائن درخواست دیں اور بینک چنیں (درجہ 1 زیادہ تر مائیکروفنانس بینکوں سے)",
+              "sd": "pmyp.gov.pk تي آن لائين درخواست ڏيو ۽ بئنڪ چونڊيو (درجو 1 گهڻو ڪري مائڪروفنانس بئنڪن ذريعي)"
+            },
+            {
+              "en": "Prepare a simple farm or business plan",
+              "ur": "کھیت یا کاروبار کا سادہ منصوبہ تیار کریں",
+              "sd": "ٻنيءَ يا ڪاروبار جو سادو منصوبو تيار ڪريو"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ztbl",
+      "label": {
+        "en": "ZTBL loans",
+        "ur": "زرعی ترقیاتی بینک قرض",
+        "sd": "زرعي ترقياتي بئنڪ قرض"
+      },
+      "title": {
+        "en": "ZTBL (Zarai Taraqiati Bank) loans",
+        "ur": "زرعی ترقیاتی بینک (ZTBL) کے قرض",
+        "sd": "زرعي ترقياتي بئنڪ (ZTBL) جا قرض"
+      },
+      "summary": {
+        "en": "ZTBL has several farm loans. Its profit rates are not published online: get the rate and all fees in writing from the branch.",
+        "ur": "ZTBL کے کئی زرعی قرض ہیں۔ اس کے منافع کی شرح آن لائن شائع نہیں: شرح اور تمام فیسیں برانچ سے تحریری طور پر لیں۔",
+        "sd": "ZTBL جا ڪيترائي زرعي قرض آهن. ان جي منافعي جي شرح آن لائين شايع ناهي: شرح ۽ سموريون فيون برانچ کان لکت ۾ وٺو."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Loans",
+            "ur": "قرض",
+            "sd": "قرض"
+          },
+          "items": [
+            {
+              "en": "Kissan Khushhal: running crop limit up to Rs 25 lakh for 3 years, documents only once",
+              "ur": "کسان خوشحال: فصل کے لیے 25 لاکھ تک جاری حد، 3 سال، دستاویزات صرف ایک بار",
+              "sd": "ڪسان خوشحال: فصل لاءِ 25 لک تائين هلندڙ حد، 3 سال، دستاويز رڳو هڪ ڀيرو"
+            },
+            {
+              "en": "Tractor loan: up to Rs 25 lakh, 8 years, half-yearly instalments, own share 10%",
+              "ur": "ٹریکٹر قرض: 25 لاکھ تک، 8 سال، ششماہی قسطیں، اپنا حصہ 10%",
+              "sd": "ٽريڪٽر قرض: 25 لک تائين، 8 سال، ڇهه ماهي قسطون، پنهنجو حصو 10%"
+            },
+            {
+              "en": "Solar tubewell and drip irrigation: up to Rs 50 lakh, 10 years, farmer share 10% (to be confirmed)",
+              "ur": "سولر ٹیوب ویل اور ڈرپ آبپاشی: 50 لاکھ تک، 10 سال، کسان کا حصہ 10% (تصدیق باقی)",
+              "sd": "سولر ٽيوب ويل ۽ ڊرپ آبپاشي: 50 لک تائين، 10 سال، هاريءَ جو حصو 10% (تصديق باقي)"
+            },
+            {
+              "en": "Khushk Ratab: loan for date growers to make chhuhara (dried dates). Ask the Sukkur zonal office",
+              "ur": "خشک رطب: کھجور کے کاشتکاروں کے لیے چھوہارا بنانے کا قرض۔ سکھر زونل آفس سے پوچھیں",
+              "sd": "خشڪ رطب: کجيءَ جي پوکيندڙن لاءِ ڇوهارا ٺاهڻ جو قرض. سکر زونل آفيس کان پڇو"
+            },
+            {
+              "en": "Khawateen Rozgar: a loan scheme for women. Ask the branch for terms",
+              "ur": "خواتین روزگار: خواتین کے لیے قرض اسکیم۔ شرائط برانچ سے پوچھیں",
+              "sd": "خواتين روزگار: عورتن لاءِ قرض اسڪيم. شرطون برانچ کان پڇو"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Documents",
+            "ur": "دستاویزات",
+            "sd": "دستاويز"
+          },
+          "items": [
+            {
+              "en": "CNIC, land pass book, 2 photos",
+              "ur": "شناختی کارڈ، زمین کی پاس بک، 2 تصاویر",
+              "sd": "شناختي ڪارڊ، زمين جو پاس بڪ، 2 فوٽو"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Remember",
+            "ur": "یاد رکھیں",
+            "sd": "ياد رکو"
+          },
+          "items": [
+            {
+              "en": "The land pass book is kept as security: if you do not repay, your land is at risk",
+              "ur": "زمین کی پاس بک ضمانت کے طور پر رکھی جاتی ہے: قرض واپس نہ کیا تو زمین خطرے میں ہے",
+              "sd": "زمين جو پاس بڪ ضمانت طور رکيو وڃي ٿو: قرض واپس نه ڪيو ته زمين خطري ۾ آهي"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interest_free",
+      "label": {
+        "en": "Interest-free loans",
+        "ur": "بلا سود قرض",
+        "sd": "بنا وياج قرض"
+      },
+      "title": {
+        "en": "PM Interest-Free Loan (PPAF / Akhuwat)",
+        "ur": "وزیراعظم بلا سود قرض (PPAF / اخوت)",
+        "sd": "وزيراعظم بنا وياج قرض (PPAF / اخوت)"
+      },
+      "summary": {
+        "en": "Small loans for poor households: repay only what you borrowed. Given through PPAF partners such as Akhuwat and SRSO (which has run it in Ghotki).",
+        "ur": "غریب گھرانوں کے لیے چھوٹے قرض: صرف اتنا واپس کریں جتنا لیا۔ PPAF کے شراکت دار جیسے اخوت اور SRSO (گھوٹکی میں) دیتے ہیں۔",
+        "sd": "غريب گهرن لاءِ ننڍا قرض: رڳو اوترو واپس ڪريو جيترو ورتو. PPAF جا ڀائيوار جهڙوڪ اخوت ۽ SRSO (گهوٽڪي ۾) ڏين ٿا."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Who can apply",
+            "ur": "کون درخواست دے سکتا ہے",
+            "sd": "ڪير درخواست ڏئي سگهي ٿو"
+          },
+          "items": [
+            {
+              "en": "Poor households with a poverty score of 0 to 40, age 18 to 60",
+              "ur": "غربت اسکور 0 سے 40 والے گھرانے، عمر 18 سے 60 سال",
+              "sd": "غربت اسڪور 0 کان 40 وارا گهر، عمر 18 کان 60 سال"
+            },
+            {
+              "en": "Open to landless families",
+              "ur": "بے زمین خاندان بھی اہل ہیں",
+              "sd": "بي زمين خاندان به اهل آهن"
+            },
+            {
+              "en": "More than half the loans go to women (67% in Sindh)",
+              "ur": "آدھے سے زیادہ قرض خواتین کو ملتے ہیں (سندھ میں 67%)",
+              "sd": "اڌ کان وڌيڪ قرض عورتن کي ملن ٿا (سنڌ ۾ 67%)"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Loan",
+            "ur": "قرض",
+            "sd": "قرض"
+          },
+          "items": [
+            {
+              "en": "Average loan Rs 35,000 to 40,000",
+              "ur": "اوسط قرض 35,000 سے 40,000 روپے",
+              "sd": "سراسري قرض 35,000 کان 40,000 رپيا"
+            },
+            {
+              "en": "For livestock (goats, poultry), kitchen garden or small business",
+              "ur": "مویشی (بکریاں، مرغیاں)، کچن گارڈن یا چھوٹے کاروبار کے لیے",
+              "sd": "مال (ٻڪريون، ڪڪڙيون)، گهريلو باغ يا ننڍي ڪاروبار لاءِ"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "How to apply",
+            "ur": "درخواست کیسے دیں",
+            "sd": "درخواست ڪيئن ڏيو"
+          },
+          "items": [
+            {
+              "en": "CNIC and a simple income or business plan",
+              "ur": "شناختی کارڈ اور آمدنی یا کاروبار کا سادہ منصوبہ",
+              "sd": "شناختي ڪارڊ ۽ آمدني يا ڪاروبار جو سادو منصوبو"
+            },
+            {
+              "en": "Visit an Akhuwat, SRSO or other loan centre. Ask which centre is active in your district",
+              "ur": "اخوت، SRSO یا کسی اور قرض مرکز جائیں۔ پوچھیں آپ کے ضلع میں کون سا مرکز فعال ہے",
+              "sd": "اخوت، SRSO يا ڪنهن ٻئي قرض مرڪز وڃو. پڇو اوهان جي ضلعي ۾ ڪهڙو مرڪز هلندڙ آهي"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": {
+        "en": "Microfinance & others",
+        "ur": "مائیکروفنانس اور دیگر",
+        "sd": "مائڪروفنانس ۽ ٻيا"
+      },
+      "title": {
+        "en": "Microfinance and other options",
+        "ur": "مائیکروفنانس اور دیگر ذرائع",
+        "sd": "مائڪروفنانس ۽ ٻيا ذريعا"
+      },
+      "summary": {
+        "en": "Other places that give credit or support. These details are not fully verified: ask the branch or office before you decide.",
+        "ur": "قرض یا مدد کے دیگر ذرائع۔ یہ تفصیلات مکمل تصدیق شدہ نہیں: فیصلے سے پہلے برانچ یا دفتر سے پوچھیں۔",
+        "sd": "قرض يا مدد جا ٻيا ذريعا. هي تفصيل مڪمل تصديق ٿيل ناهن: فيصلي کان اڳ برانچ يا آفيس کان پڇو."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Microfinance",
+            "ur": "مائیکروفنانس",
+            "sd": "مائڪروفنانس"
+          },
+          "items": [
+            {
+              "en": "NRSP Microfinance Bank (Kissan Zarai Taraqiati Qarza): Rs 30,000 to 5 lakh, 3 to 36 months, for households earning up to Rs 12 lakh a year",
+              "ur": "NRSP مائیکروفنانس بینک (کسان زرعی ترقیاتی قرضہ): 30,000 سے 5 لاکھ روپے، 3 سے 36 ماہ، 12 لاکھ سالانہ تک آمدنی والے گھرانوں کے لیے",
+              "sd": "NRSP مائڪروفنانس بئنڪ (ڪسان زرعي ترقياتي قرض): 30,000 کان 5 لک رپيا، 3 کان 36 مهينا، 12 لک ساليانو تائين آمدني وارن گهرن لاءِ"
+            },
+            {
+              "en": "Microfinance profit rates are often high. Ask the rate and compare before you borrow",
+              "ur": "مائیکروفنانس کا منافع اکثر زیادہ ہوتا ہے۔ قرض سے پہلے شرح پوچھیں اور موازنہ کریں",
+              "sd": "مائڪروفنانس جو منافعو اڪثر وڌيڪ هوندو آهي. قرض کان اڳ شرح پڇو ۽ ڀيٽ ڪريو"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Inputs and equipment",
+            "ur": "زرعی سامان اور آلات",
+            "sd": "زرعي سامان ۽ اوزار"
+          },
+          "items": [
+            {
+              "en": "FFC Sona Centre: fertiliser on credit with minimal documents. Ask the credit price and the cash price",
+              "ur": "FFC سونا سینٹر: کم دستاویزات پر ادھار کھاد۔ ادھار اور نقد قیمت دونوں پوچھیں",
+              "sd": "FFC سونا سينٽر: گهٽ دستاويزن تي اڌار ڀاڻ. اڌار ۽ نقد ٻئي قيمتون پڇو"
+            },
+            {
+              "en": "Agri Mart / Agri Mall (Saleh Pat and Khairpur): inputs and tools, cash only, no credit",
+              "ur": "ایگری مارٹ / ایگری مال (صالح پٹ اور خیرپور): زرعی سامان اور اوزار، صرف نقد، ادھار نہیں",
+              "sd": "ايگري مارٽ / ايگري مال (صالح پٽ ۽ خيرپور): زرعي سامان ۽ اوزار، رڳو نقد، اڌار ناهي"
+            },
+            {
+              "en": "SWAT project: the government shares the cost of drip irrigation, solar and laser land levelling (60:40). A subsidy, not a loan. Ask the Agriculture (Water Management) office",
+              "ur": "SWAT منصوبہ: ڈرپ آبپاشی، سولر اور لیزر لیولنگ کی لاگت میں حکومت حصہ ڈالتی ہے (60:40)۔ یہ سبسڈی ہے، قرض نہیں۔ زراعت (واٹر مینجمنٹ) دفتر سے پوچھیں",
+              "sd": "SWAT منصوبو: ڊرپ آبپاشي، سولر ۽ ليزر ليولنگ جي لاڳت ۾ حڪومت حصو ڏئي ٿي (60:40). هي سبسڊي آهي، قرض ناهي. زراعت (واٽر مئنيجمينٽ) آفيس کان پڇو"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Other banks",
+            "ur": "دیگر بینک",
+            "sd": "ٻيا بئنڪ"
+          },
+          "items": [
+            {
+              "en": "SBP Risk Coverage Scheme: the government covers part of banks' losses on loans to first-time small farmers, so banks are more willing to lend. Ask at the branch",
+              "ur": "اسٹیٹ بینک رسک کوریج اسکیم: پہلی بار قرض لینے والے چھوٹے کسانوں کے قرض پر بینکوں کے نقصان کا کچھ حصہ حکومت دیتی ہے، اس لیے بینک قرض دینے پر زیادہ آمادہ ہیں۔ برانچ سے پوچھیں",
+              "sd": "اسٽيٽ بئنڪ رسڪ ڪوريج اسڪيم: پهريون ڀيرو قرض وٺندڙ ننڍن هارين جي قرض تي بئنڪن جي نقصان جو ڪجهه حصو حڪومت ڀري ٿي، ان ڪري بئنڪ قرض ڏيڻ لاءِ وڌيڪ تيار آهن. برانچ کان پڇو"
+            },
+            {
+              "en": "SRSO, Khushhali, Kashf, Mobilink, U Microfinance, TRDP, NBP, Alfalah, Allied, HBL, JS, MCB, Soneri and BOP also lend to farmers; most offer Zarkhez-e and the Youth loan",
+              "ur": "SRSO، خوشحالی، کشف، موبی لنک، یو مائیکروفنانس، TRDP، NBP، الفلاح، الائیڈ، HBL، JS، MCB، سونیری اور BOP بھی کسانوں کو قرض دیتے ہیں؛ زیادہ تر زرخیز-ای اور یوتھ قرض دیتے ہیں",
+              "sd": "SRSO، خوشحالي، ڪشف، موبي لنڪ، يو مائڪروفنانس، TRDP، NBP، الفلاح، الائيڊ، HBL، JS، MCB، سونيري ۽ BOP پڻ هارين کي قرض ڏين ٿا؛ گهڻا زرخيز-اي ۽ يوٿ قرض ڏين ٿا"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "label": {
+        "en": "Compare loan costs",
+        "ur": "قرض کی لاگت کا موازنہ",
+        "sd": "قرض جي لاڳت جي ڀيٽ"
+      },
+      "title": {
+        "en": "What a Rs 1 lakh loan costs for one year",
+        "ur": "1 لاکھ روپے کے قرض کی ایک سال کی لاگت",
+        "sd": "1 لک رپين جي قرض جي هڪ سال جي لاڳت"
+      },
+      "summary": {
+        "en": "The extra amount you pay back on Rs 1,00,000 borrowed for one year:",
+        "ur": "ایک سال کے لیے 1,00,000 روپے قرض پر آپ کتنا اضافی واپس کرتے ہیں:",
+        "sd": "هڪ سال لاءِ 1,00,000 رپين قرض تي اوهان ڪيترو اضافي واپس ڪريو ٿا:"
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Extra you pay",
+            "ur": "اضافی ادائیگی",
+            "sd": "اضافي ادائگي"
+          },
+          "items": [
+            {
+              "en": "Aarhti (commission agent): Rs 30,000 to 40,000, plus 2–4% commission and a lower price for your crop",
+              "ur": "آڑھتی: 30,000 سے 40,000 روپے، اس کے علاوہ 2–4% کمیشن اور فصل کی کم قیمت",
+              "sd": "آڙهتي: 30,000 کان 40,000 رپيا، ان کان علاوه 2–4% ڪميشن ۽ فصل جي گهٽ قيمت"
+            },
+            {
+              "en": "Bank crop loan (about 16–20%): Rs 8,000 to 10,000",
+              "ur": "بینک کا فصلی قرض (تقریباً 16–20%): 8,000 سے 10,000 روپے",
+              "sd": "بئنڪ جو فصلي قرض (لڳ ڀڳ 16–20%): 8,000 کان 10,000 رپيا"
+            },
+            {
+              "en": "Zarkhez-e (18–38% by bank): Rs 10,200 to 20,200, including the Rs 1,200 fee. Choosing the cheaper bank matters",
+              "ur": "زرخیز-ای (بینک کے حساب سے 18–38%): 10,200 سے 20,200 روپے، 1,200 فیس سمیت۔ سستا بینک چننا اہم ہے",
+              "sd": "زرخيز-اي (بئنڪ موجب 18–38%): 10,200 کان 20,200 رپيا، 1,200 في سميت. سستو بئنڪ چونڊڻ اهم آهي"
+            },
+            {
+              "en": "PM Youth loan Tier 1: Rs 0 (ages 21–45, subject to approval)",
+              "ur": "وزیراعظم یوتھ قرض درجہ 1: 0 روپے (عمر 21–45، منظوری سے مشروط)",
+              "sd": "وزيراعظم يوٿ قرض درجو 1: 0 رپيا (عمر 21–45، منظوري سان مشروط)"
+            },
+            {
+              "en": "Interest-free loan (PPAF / Akhuwat): Rs 0, but a typical loan is only Rs 35,000–40,000",
+              "ur": "بلا سود قرض (PPAF / اخوت): 0 روپے، مگر عام قرض صرف 35,000–40,000 روپے",
+              "sd": "بنا وياج قرض (PPAF / اخوت): 0 رپيا، پر عام قرض رڳو 35,000–40,000 رپيا"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Why aarhti credit costs more",
+            "ur": "آڑھتی کا ادھار مہنگا کیوں",
+            "sd": "آڙهتيءَ جو اڌار مهانگو ڇو"
+          },
+          "items": [
+            {
+              "en": "You must sell your crop to the same aarhti, at his price",
+              "ur": "فصل اسی آڑھتی کو اس کی قیمت پر بیچنی پڑتی ہے",
+              "sd": "فصل ساڳئي آڙهتيءَ کي ان جي قيمت تي وڪڻڻو پوي ٿو"
+            },
+            {
+              "en": "Inputs cost more on credit: one study found a urea bag at Rs 1,800 cash but Rs 2,400 on credit, one-third more in 4 months",
+              "ur": "ادھار پر سامان مہنگا ملتا ہے: ایک تحقیق میں یوریا کی بوری نقد 1,800 مگر ادھار 2,400 روپے، یعنی 4 ماہ میں ایک تہائی زیادہ",
+              "sd": "اڌار تي سامان مهانگو ملي ٿو: هڪ تحقيق ۾ يوريا جي ٻوري نقد 1,800 پر اڌار 2,400 رپيا، يعني 4 مهينن ۾ ٽيون حصو وڌيڪ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "before_borrowing",
+      "label": {
+        "en": "Before you borrow",
+        "ur": "قرض لینے سے پہلے",
+        "sd": "قرض وٺڻ کان اڳ"
+      },
+      "title": {
+        "en": "Before you borrow",
+        "ur": "قرض لینے سے پہلے",
+        "sd": "قرض وٺڻ کان اڳ"
+      },
+      "summary": {
+        "en": "Borrow only what your crop can repay. Do not use farm loans for weddings, funerals or household spending.",
+        "ur": "صرف اتنا قرض لیں جتنا فصل سے واپس ہو سکے۔ زرعی قرض شادی، فوتگی یا گھریلو خرچ پر استعمال نہ کریں۔",
+        "sd": "رڳو اوترو قرض وٺو جيترو فصل مان واپس ٿي سگهي. زرعي قرض شادي، فوتگي يا گهريلو خرچ تي استعمال نه ڪريو."
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Plan",
+            "ur": "منصوبہ بندی",
+            "sd": "رٿابندي"
+          },
+          "items": [
+            {
+              "en": "Work out the total repayment, including profit, and estimate your crop income",
+              "ur": "منافع سمیت کل واپسی کا حساب لگائیں اور فصل کی آمدنی کا اندازہ کریں",
+              "sd": "منافعي سميت ڪل واپسيءَ جو حساب لڳايو ۽ فصل جي آمدنيءَ جو اندازو لڳايو"
+            },
+            {
+              "en": "Plan for bad weather or low prices (crop insurance, selling in stages)",
+              "ur": "خراب موسم یا کم قیمت کے لیے تیاری کریں (فصل کا بیمہ، مرحلہ وار فروخت)",
+              "sd": "خراب موسم يا گهٽ قيمت لاءِ تياري ڪريو (فصل جو بيمو، مرحليوار وڪرو)"
+            },
+            {
+              "en": "Compare the cost of aarhti credit and a bank loan",
+              "ur": "آڑھتی کے ادھار اور بینک قرض کی لاگت کا موازنہ کریں",
+              "sd": "آڙهتيءَ جي اڌار ۽ بئنڪ قرض جي لاڳت جي ڀيٽ ڪريو"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Get ready",
+            "ur": "تیاری",
+            "sd": "تياري"
+          },
+          "items": [
+            {
+              "en": "A valid CNIC: an expired CNIC is the most common problem",
+              "ur": "درست شناختی کارڈ: میعاد ختم کارڈ سب سے عام رکاوٹ ہے",
+              "sd": "صحيح شناختي ڪارڊ: مدو پورو ٿيل ڪارڊ سڀ کان عام رڪاوٽ آهي"
+            },
+            {
+              "en": "A SIM registered on your own CNIC. A husband's or son's SIM will not work",
+              "ur": "اپنے شناختی کارڈ پر رجسٹرڈ سم۔ شوہر یا بیٹے کی سم نہیں چلے گی",
+              "sd": "پنهنجي شناختي ڪارڊ تي رجسٽر ٿيل سم. مڙس يا پٽ جي سم نه هلندي"
+            },
+            {
+              "en": "Two photos and a bank account or mobile wallet",
+              "ur": "دو تصاویر اور بینک اکاؤنٹ یا موبائل والٹ",
+              "sd": "ٻه فوٽو ۽ بئنڪ اڪائونٽ يا موبائل والٽ"
+            },
+            {
+              "en": "Owner: land record (Form VII). Haris and women: cultivation entry with the tapedar, or a written lease / sharecrop agreement",
+              "ur": "مالک: زمین کا ریکارڈ (فارم VII)۔ ہاری اور خواتین: تپیدار کے پاس کاشت کا اندراج، یا تحریری ٹھیکہ / بٹائی معاہدہ",
+              "sd": "مالڪ: زمين جو رڪارڊ (فارم VII). هاري ۽ عورتون: تپيدار وٽ پوکيءَ جو اندراج، يا لکيل ٺيڪو / ڀاڱي وارو معاهدو"
+            },
+            {
+              "en": "Clear any old loan or unpaid bill first: banks check the credit bureau",
+              "ur": "پہلے پرانا قرض یا بقایا بل ادا کریں: بینک کریڈٹ بیورو چیک کرتے ہیں",
+              "sd": "پهريان پراڻو قرض يا بقايا بل ادا ڪريو: بئنڪ ڪريڊٽ بيورو چيڪ ڪن ٿا"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Protect yourself",
+            "ur": "اپنی حفاظت کریں",
+            "sd": "پنهنجو بچاءُ ڪريو"
+          },
+          "items": [
+            {
+              "en": "Nobody can charge money for registration. Hari Card is free; Zarkhez-e is only Rs 1,200 on the portal",
+              "ur": "رجسٹریشن کے لیے کوئی پیسے نہیں لے سکتا۔ ہاری کارڈ مفت ہے؛ زرخیز-ای کی فیس صرف 1,200 روپے پورٹل پر",
+              "sd": "رجسٽريشن لاءِ ڪو به پئسا نٿو وٺي سگهي. هاري ڪارڊ مفت آهي؛ زرخيز-اي جي في رڳو 1,200 رپيا پورٽل تي"
+            },
+            {
+              "en": "Never give your ATM PIN or mobile code to anyone",
+              "ur": "اپنا ATM پن یا موبائل کوڈ کبھی کسی کو نہ دیں",
+              "sd": "پنهنجو ATM پن يا موبائل ڪوڊ ڪڏهن به ڪنهن کي نه ڏيو"
+            },
+            {
+              "en": "Get the rate and the total repayment amount from the bank in writing",
+              "ur": "شرح اور کل واپسی کی رقم بینک سے تحریری طور پر لیں",
+              "sd": "شرح ۽ ڪل واپسيءَ جي رقم بئنڪ کان لکت ۾ وٺو"
+            },
+            {
+              "en": "Late payment stays on your record for 2 years and blocks your next loan. If the crop fails, talk to the bank early",
+              "ur": "دیر سے ادائیگی 2 سال ریکارڈ پر رہتی ہے اور اگلا قرض روک دیتی ہے۔ فصل خراب ہو تو جلد بینک سے بات کریں",
+              "sd": "دير سان ادائگي 2 سال رڪارڊ تي رهي ٿي ۽ ايندڙ قرض روڪي ٿي. فصل خراب ٿئي ته جلد بئنڪ سان ڳالهايو"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "en": "Complaints",
+            "ur": "شکایات",
+            "sd": "شڪايتون"
+          },
+          "items": [
+            {
+              "en": "Bank complaint desk, SBP Sunwai portal, or the Banking Mohtasib",
+              "ur": "بینک کی شکایت ڈیسک، اسٹیٹ بینک سنوائی پورٹل، یا بینکنگ محتسب",
+              "sd": "بئنڪ جي شڪايت ڊيسڪ، اسٽيٽ بئنڪ سنوائي پورٽل، يا بئنڪنگ محتسب"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

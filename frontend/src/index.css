@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+
+  /* Agricultural green accent */
+  --color-brand-50: #f1f8f2;
+  --color-brand-100: #dff1e3;
+  --color-brand-200: #bfe2c7;
+  --color-brand-300: #8fcb9e;
+  --color-brand-500: #2f8f4e;
+  --color-brand-600: #237a40;
+  --color-brand-700: #1d6235;
+  --color-brand-800: #194f2c;
+  --color-brand-900: #12391f;
+  --color-brand-950: #0b2514;
+
+  /* Website: wheat/harvest gold, sky (climate) and soil tones */
+  --color-wheat-100: #fbf1d6;
+  --color-wheat-300: #f0cf7a;
+  --color-wheat-500: #d9a42c;
+  --color-wheat-700: #8f6510;
+  --color-sky-soft: #e4f1f6;
+  --color-sky-deep: #2b7a99;
+  --color-soil: #f7f3ea;
+  --color-whatsapp: #25d366;
+  --color-whatsapp-dark: #128c4b;
+
+  /* Neutral surfaces */
+  --color-canvas: #f6f6f3;
+  --color-surface: #ffffff;
+  --color-line: #e6e5df;
+  --color-chat: #f1efe9;
+  --color-bubble-user: #dcf2e0;
+
+  /* Ink */
+  --color-ink: #1c1f1d;
+  --color-ink-2: #4b524d;
+  --color-ink-3: #7d847f;
+
+  /* Feedback split */
+  --color-negative: #c2603f;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Urdu is traditionally set in Nastaliq; Sindhi uses Naskh (it has the Sindhi-specific letters).
+   Inter stays as the fallback for Latin text and digits mixed into those messages. */
+:lang(ur) {
+  font-family: "Noto Nastaliq Urdu", "Noto Naskh Arabic", "Inter", ui-sans-serif, sans-serif;
+}
+:lang(sd) {
+  font-family: "Noto Naskh Arabic", "Inter", ui-sans-serif, sans-serif;
+}
+/* Nastaliq has tall ascenders and deep descenders; give lines room so they don't collide. */
+:lang(ur) .leading-relaxed {
+  line-height: 2.2;
+}
+:lang(sd) .leading-relaxed {
+  line-height: 1.9;
+}
+
+@keyframes typing {
+  0%, 60%, 100% { opacity: 0.25; transform: translateY(0); }
+  30% { opacity: 1; transform: translateY(-2px); }
+}
+.typing-dot { animation: typing 1.2s infinite ease-in-out; }
+.typing-dot:nth-child(2) { animation-delay: 0.15s; }
+.typing-dot:nth-child(3) { animation-delay: 0.3s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .typing-dot { animation: none; opacity: 0.6; }
+}
+
+/* Website */
+html {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+.font-display {
+  font-optical-sizing: auto;
+  letter-spacing: -0.015em;
+}
+details > summary { list-style: none; }
+details > summary::-webkit-details-marker { display: none; }
+details[open] .faq-chevron { transform: rotate(45deg); }

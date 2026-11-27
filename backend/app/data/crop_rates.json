@@ -1,0 +1,356 @@
+{
+  "_note": "DUMMY DATA for the MVP. Current rates will come from the team's weekly Google Sheet; trends and expected ranges from the seasonal forecasting model. Text fields are {en, ur, sd}.",
+  "districts": [
+    {
+      "id": "sukkur",
+      "name": {
+        "en": "Sukkur",
+        "ur": "سکھر",
+        "sd": "سکر"
+      }
+    },
+    {
+      "id": "khairpur",
+      "name": {
+        "en": "Khairpur",
+        "ur": "خیرپور",
+        "sd": "خيرپور"
+      }
+    },
+    {
+      "id": "ghotki",
+      "name": {
+        "en": "Ghotki",
+        "ur": "گھوٹکی",
+        "sd": "گهوٽڪي"
+      }
+    }
+  ],
+  "crops": [
+    {
+      "id": "wheat",
+      "name": {
+        "en": "Wheat",
+        "ur": "گندم",
+        "sd": "ڪڻڪ"
+      },
+      "unit": {
+        "en": "40 kg (maund)",
+        "ur": "40 کلو (من)",
+        "sd": "40 ڪلو (مڻ)"
+      },
+      "rates": {
+        "sukkur": {
+          "rate": 3950,
+          "source": {
+            "en": "Sukkur Grain Market (sample)",
+            "ur": "سکھر غلہ منڈی (نمونہ)",
+            "sd": "سکر اناج منڊي (نمونو)"
+          },
+          "date": "2026-11-09"
+        },
+        "khairpur": {
+          "rate": 3900,
+          "source": {
+            "en": "Khairpur Market Committee (sample)",
+            "ur": "خیرپور مارکیٹ کمیٹی (نمونہ)",
+            "sd": "خيرپور مارڪيٽ ڪميٽي (نمونو)"
+          },
+          "date": "2026-11-09"
+        },
+        "ghotki": {
+          "rate": 4000,
+          "source": {
+            "en": "Ghotki Grain Market (sample)",
+            "ur": "گھوٹکی غلہ منڈی (نمونہ)",
+            "sd": "گهوٽڪي اناج منڊي (نمونو)"
+          },
+          "date": "2026-11-08"
+        }
+      },
+      "trend": {
+        "summer_avg": 4150,
+        "winter_avg": 3850,
+        "note": {
+          "en": "Prices usually dip at Rabi harvest (April–May) and rise through summer as stocks fall.",
+          "ur": "ربیع کی کٹائی (اپریل–مئی) پر قیمتیں عام طور پر گر جاتی ہیں اور گرمیوں میں ذخیرہ کم ہونے پر بڑھ جاتی ہیں۔",
+          "sd": "ربيع جي لاباري (اپريل–مئي) وقت اگهه عام طور تي گهٽجن ٿا ۽ اونهاري ۾ ذخيرو گهٽجڻ سان وڌن ٿا."
+        }
+      },
+      "expected": {
+        "season": {
+          "en": "Rabi harvest 2027",
+          "ur": "ربیع کی کٹائی 2027",
+          "sd": "ربيع جي لاباري 2027"
+        },
+        "low": 3700,
+        "high": 4200,
+        "basis": {
+          "en": "Sample estimate. Real forecasts will use the team's price history.",
+          "ur": "نمونہ اندازہ۔ اصل پیشگوئی ٹیم کی قیمتوں کی تاریخ سے کی جائے گی۔",
+          "sd": "نمونو اندازو. اصل اڳڪٿي ٽيم جي اگهن جي تاريخ مان ڪئي ويندي."
+        }
+      }
+    },
+    {
+      "id": "cotton",
+      "name": {
+        "en": "Cotton (Phutti)",
+        "ur": "کپاس (پھٹی)",
+        "sd": "ڪپهه (ڦٽي)"
+      },
+      "unit": {
+        "en": "40 kg (maund)",
+        "ur": "40 کلو (من)",
+        "sd": "40 ڪلو (مڻ)"
+      },
+      "rates": {
+        "sukkur": {
+          "rate": 8300,
+          "source": {
+            "en": "Sukkur Cotton Market (sample)",
+            "ur": "سکھر کپاس منڈی (نمونہ)",
+            "sd": "سکر ڪپهه منڊي (نمونو)"
+          },
+          "date": "2026-11-10"
+        },
+        "khairpur": {
+          "rate": 8200,
+          "source": {
+            "en": "Khairpur Market Committee (sample)",
+            "ur": "خیرپور مارکیٹ کمیٹی (نمونہ)",
+            "sd": "خيرپور مارڪيٽ ڪميٽي (نمونو)"
+          },
+          "date": "2026-11-10"
+        },
+        "ghotki": {
+          "rate": 8500,
+          "source": {
+            "en": "Ghotki / Dharki traders (sample)",
+            "ur": "گھوٹکی / ڈہرکی کے تاجر (نمونہ)",
+            "sd": "گهوٽڪي / ڏهرڪي جا واپاري (نمونو)"
+          },
+          "date": "2026-11-10"
+        }
+      },
+      "trend": {
+        "summer_avg": 8700,
+        "winter_avg": 8100,
+        "note": {
+          "en": "Early-season phutti (August–September) usually gets better prices than late pickings.",
+          "ur": "شروع موسم کی پھٹی (اگست–ستمبر) کو عام طور پر دیر سے چنی گئی کپاس سے بہتر قیمت ملتی ہے۔",
+          "sd": "موسم جي شروعات واري ڦٽي (آگسٽ–سيپٽمبر) کي عام طور تي دير سان چونڊيل ڪپهه کان بهتر اگهه ملي ٿو."
+        }
+      },
+      "expected": {
+        "season": {
+          "en": "Kharif 2027",
+          "ur": "خریف 2027",
+          "sd": "خريف 2027"
+        },
+        "low": 8000,
+        "high": 9200,
+        "basis": {
+          "en": "Sample estimate. Real forecasts will use the team's price history.",
+          "ur": "نمونہ اندازہ۔ اصل پیشگوئی ٹیم کی قیمتوں کی تاریخ سے کی جائے گی۔",
+          "sd": "نمونو اندازو. اصل اڳڪٿي ٽيم جي اگهن جي تاريخ مان ڪئي ويندي."
+        }
+      }
+    },
+    {
+      "id": "rice",
+      "name": {
+        "en": "Rice (Paddy)",
+        "ur": "چاول (دھان)",
+        "sd": "چانور (سارا)"
+      },
+      "unit": {
+        "en": "40 kg (maund)",
+        "ur": "40 کلو (من)",
+        "sd": "40 ڪلو (مڻ)"
+      },
+      "rates": {
+        "sukkur": {
+          "rate": 3100,
+          "source": {
+            "en": "Sukkur Grain Market (sample)",
+            "ur": "سکھر غلہ منڈی (نمونہ)",
+            "sd": "سکر اناج منڊي (نمونو)"
+          },
+          "date": "2026-11-07"
+        },
+        "khairpur": {
+          "rate": 3050,
+          "source": {
+            "en": "Khairpur Market Committee (sample)",
+            "ur": "خیرپور مارکیٹ کمیٹی (نمونہ)",
+            "sd": "خيرپور مارڪيٽ ڪميٽي (نمونو)"
+          },
+          "date": "2026-11-07"
+        },
+        "ghotki": {
+          "rate": 3150,
+          "source": {
+            "en": "Ghotki Grain Market (sample)",
+            "ur": "گھوٹکی غلہ منڈی (نمونہ)",
+            "sd": "گهوٽڪي اناج منڊي (نمونو)"
+          },
+          "date": "2026-11-06"
+        }
+      },
+      "trend": {
+        "summer_avg": 3300,
+        "winter_avg": 3000,
+        "note": {
+          "en": "Paddy prices are lowest during the October–November harvest and recover later.",
+          "ur": "دھان کی قیمتیں اکتوبر–نومبر کی کٹائی میں سب سے کم ہوتی ہیں اور بعد میں بہتر ہو جاتی ہیں۔",
+          "sd": "سارن جا اگهه آڪٽوبر–نومبر جي لاباري دوران سڀ کان گهٽ هوندا آهن ۽ پوءِ بهتر ٿين ٿا."
+        }
+      },
+      "expected": {
+        "season": {
+          "en": "Kharif 2027",
+          "ur": "خریف 2027",
+          "sd": "خريف 2027"
+        },
+        "low": 2900,
+        "high": 3500,
+        "basis": {
+          "en": "Sample estimate. Real forecasts will use the team's price history.",
+          "ur": "نمونہ اندازہ۔ اصل پیشگوئی ٹیم کی قیمتوں کی تاریخ سے کی جائے گی۔",
+          "sd": "نمونو اندازو. اصل اڳڪٿي ٽيم جي اگهن جي تاريخ مان ڪئي ويندي."
+        }
+      }
+    },
+    {
+      "id": "sugarcane",
+      "name": {
+        "en": "Sugarcane",
+        "ur": "گنا",
+        "sd": "ڪمند"
+      },
+      "unit": {
+        "en": "40 kg (maund)",
+        "ur": "40 کلو (من)",
+        "sd": "40 ڪلو (مڻ)"
+      },
+      "rates": {
+        "sukkur": {
+          "rate": 430,
+          "source": {
+            "en": "Sindh support price notification (sample)",
+            "ur": "سندھ امدادی قیمت کا نوٹیفکیشن (نمونہ)",
+            "sd": "سنڌ امدادي اگهه جو نوٽيفڪيشن (نمونو)"
+          },
+          "date": "2026-11-01"
+        },
+        "khairpur": {
+          "rate": 430,
+          "source": {
+            "en": "Sindh support price notification (sample)",
+            "ur": "سندھ امدادی قیمت کا نوٹیفکیشن (نمونہ)",
+            "sd": "سنڌ امدادي اگهه جو نوٽيفڪيشن (نمونو)"
+          },
+          "date": "2026-11-01"
+        },
+        "ghotki": {
+          "rate": 440,
+          "source": {
+            "en": "Mill gate rate, Ghotki (sample)",
+            "ur": "مل گیٹ ریٹ، گھوٹکی (نمونہ)",
+            "sd": "مل گيٽ اگهه، گهوٽڪي (نمونو)"
+          },
+          "date": "2026-11-05"
+        }
+      },
+      "trend": {
+        "summer_avg": 420,
+        "winter_avg": 435,
+        "note": {
+          "en": "Rates follow the government support price; mills open for crushing in winter.",
+          "ur": "نرخ حکومت کی امدادی قیمت کے مطابق ہوتے ہیں؛ ملیں سردیوں میں کرشنگ کے لیے کھلتی ہیں۔",
+          "sd": "اگهه سرڪاري امدادي اگهه موجب هوندا آهن؛ ملون سياري ۾ ڪرشنگ لاءِ کلنديون آهن."
+        }
+      },
+      "expected": {
+        "season": {
+          "en": "Crushing season 2027–28",
+          "ur": "کرشنگ سیزن 2027–28",
+          "sd": "ڪرشنگ سيزن 2027–28"
+        },
+        "low": 425,
+        "high": 470,
+        "basis": {
+          "en": "Sample estimate. Depends on the next support price notification.",
+          "ur": "نمونہ اندازہ۔ اگلے امدادی قیمت کے نوٹیفکیشن پر منحصر ہے۔",
+          "sd": "نمونو اندازو. ايندڙ امدادي اگهه جي نوٽيفڪيشن تي منحصر آهي."
+        }
+      }
+    },
+    {
+      "id": "dates",
+      "name": {
+        "en": "Dates (Aseel)",
+        "ur": "کھجور (اصیل)",
+        "sd": "کجي (اصيل)"
+      },
+      "unit": {
+        "en": "40 kg (maund)",
+        "ur": "40 کلو (من)",
+        "sd": "40 ڪلو (مڻ)"
+      },
+      "rates": {
+        "sukkur": {
+          "rate": 5600,
+          "source": {
+            "en": "Sukkur Fruit Market (sample)",
+            "ur": "سکھر فروٹ منڈی (نمونہ)",
+            "sd": "سکر ميوي منڊي (نمونو)"
+          },
+          "date": "2026-11-04"
+        },
+        "khairpur": {
+          "rate": 5400,
+          "source": {
+            "en": "Khairpur Dates Market (sample)",
+            "ur": "خیرپور کھجور منڈی (نمونہ)",
+            "sd": "خيرپور کجين جي منڊي (نمونو)"
+          },
+          "date": "2026-11-04"
+        },
+        "ghotki": {
+          "rate": 5700,
+          "source": {
+            "en": "Ghotki traders (sample)",
+            "ur": "گھوٹکی کے تاجر (نمونہ)",
+            "sd": "گهوٽڪي جا واپاري (نمونو)"
+          },
+          "date": "2026-11-03"
+        }
+      },
+      "trend": {
+        "summer_avg": 4800,
+        "winter_avg": 5600,
+        "note": {
+          "en": "Fresh dates are cheapest at the July–August harvest; dried dates (chhuhara) sell higher in winter.",
+          "ur": "تازہ کھجور جولائی–اگست کی کٹائی پر سب سے سستی ہوتی ہے؛ خشک کھجور (چھوہارا) سردیوں میں مہنگی بکتی ہے۔",
+          "sd": "تازيون کجيون جولاءِ–آگسٽ جي لاباري وقت سڀ کان سستيون هونديون آهن؛ سڪل کارڪون سياري ۾ مهانگيون وڪامن ٿيون."
+        }
+      },
+      "expected": {
+        "season": {
+          "en": "Harvest 2027",
+          "ur": "کٹائی 2027",
+          "sd": "لاباري 2027"
+        },
+        "low": 4500,
+        "high": 6000,
+        "basis": {
+          "en": "Sample estimate. Real forecasts will use the team's price history.",
+          "ur": "نمونہ اندازہ۔ اصل پیشگوئی ٹیم کی قیمتوں کی تاریخ سے کی جائے گی۔",
+          "sd": "نمونو اندازو. اصل اڳڪٿي ٽيم جي اگهن جي تاريخ مان ڪئي ويندي."
+        }
+      }
+    }
+  ]
+}

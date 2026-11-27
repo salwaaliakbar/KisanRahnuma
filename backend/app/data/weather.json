@@ -1,0 +1,38 @@
+{
+  "_note": "Districts and coordinates used for live Open-Meteo forecasts (WEATHER_PROVIDER=open_meteo). To add a district, add its id, {en, ur, sd} name, latitude and longitude. The `forecast` lists are SAMPLE data, used only with WEATHER_PROVIDER=json (tests, offline): days are relative to today (day_offset) and `condition` is a code translated via the i18n keys cond_<code>.",
+  "districts": [
+    {
+      "id": "sukkur",
+      "name": { "en": "Sukkur", "ur": "سکھر", "sd": "سکر" },
+      "latitude": 27.7052,
+      "longitude": 68.8574,
+      "forecast": [
+        { "day_offset": 0, "condition": "sunny", "temp_min_c": 15, "temp_max_c": 29, "rain_mm": 0, "humidity_pct": 38, "wind_kmh": 9 },
+        { "day_offset": 1, "condition": "partly_cloudy", "temp_min_c": 16, "temp_max_c": 28, "rain_mm": 0, "humidity_pct": 45, "wind_kmh": 12 },
+        { "day_offset": 2, "condition": "hazy", "temp_min_c": 14, "temp_max_c": 27, "rain_mm": 0, "humidity_pct": 50, "wind_kmh": 8 }
+      ]
+    },
+    {
+      "id": "khairpur",
+      "name": { "en": "Khairpur", "ur": "خیرپور", "sd": "خيرپور" },
+      "latitude": 27.5295,
+      "longitude": 68.7592,
+      "forecast": [
+        { "day_offset": 0, "condition": "sunny", "temp_min_c": 14, "temp_max_c": 30, "rain_mm": 0, "humidity_pct": 35, "wind_kmh": 10 },
+        { "day_offset": 1, "condition": "cloudy", "temp_min_c": 16, "temp_max_c": 26, "rain_mm": 6, "humidity_pct": 62, "wind_kmh": 18 },
+        { "day_offset": 2, "condition": "light_rain", "temp_min_c": 15, "temp_max_c": 24, "rain_mm": 9, "humidity_pct": 70, "wind_kmh": 20 }
+      ]
+    },
+    {
+      "id": "ghotki",
+      "name": { "en": "Ghotki", "ur": "گھوٹکی", "sd": "گهوٽڪي" },
+      "latitude": 28.0062,
+      "longitude": 69.3150,
+      "forecast": [
+        { "day_offset": 0, "condition": "fog_then_sunny", "temp_min_c": 12, "temp_max_c": 27, "rain_mm": 0, "humidity_pct": 66, "wind_kmh": 6 },
+        { "day_offset": 1, "condition": "sunny", "temp_min_c": 13, "temp_max_c": 28, "rain_mm": 0, "humidity_pct": 48, "wind_kmh": 9 },
+        { "day_offset": 2, "condition": "sunny", "temp_min_c": 13, "temp_max_c": 29, "rain_mm": 0, "humidity_pct": 42, "wind_kmh": 11 }
+      ]
+    }
+  ]
+}
