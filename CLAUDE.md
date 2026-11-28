@@ -32,7 +32,7 @@ npm run typecheck  # tsc --noEmit
 npm run build      # typecheck + vite build
 ```
 
-There is no linter or frontend test suite. Config comes from `backend/.env` (`APP_ENV`, `FRONTEND_URL_DEV`, `FRONTEND_URL_PROD`, `DATABASE_URL`, `IDENTITY_HASH_SECRET`, see `app/core/config.py`; real environment variables override the file; CORS allows `FRONTEND_URL_PROD` when `APP_ENV=production`, otherwise `FRONTEND_URL_DEV`; every setting has a fallback default, and in production a placeholder secret only logs a warning) and the single `frontend/.env`: `VITE_APP_ENV` picks `VITE_BACKEND_DEV` (localhost:8000) or `VITE_BACKEND_PROD` (the Render backend); when empty, `npm run dev` means development and `npm run build` production (`src/api/client.ts`, which also holds fallback URLs because `.env` is gitignored and absent on Vercel). `VITE_WHATSAPP_NUMBER` is there too.
+There is no linter or frontend test suite. Config comes from `backend/.env` (`APP_ENV`, `FRONTEND_URL_DEV`, `FRONTEND_URL_PROD`, `DATABASE_URL`, `IDENTITY_HASH_SECRET`, see `app/core/config.py`; real environment variables override the file; CORS allows `FRONTEND_URL_PROD` plus Vercel deployment URLs matching `FRONTEND_URL_PROD_REGEX` when `APP_ENV=production`, otherwise `FRONTEND_URL_DEV`; every setting has a fallback default, and in production a placeholder secret only logs a warning) and the single `frontend/.env`: `VITE_APP_ENV` picks `VITE_BACKEND_DEV` (localhost:8000) or `VITE_BACKEND_PROD` (the Render backend); when empty, `npm run dev` means development and `npm run build` production (`src/api/client.ts`, which also holds fallback URLs because `.env` is gitignored and absent on Vercel). `VITE_WHATSAPP_NUMBER` is there too.
 
 ## Architecture
 

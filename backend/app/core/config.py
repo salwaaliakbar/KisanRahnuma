@@ -35,6 +35,10 @@ class Settings(BaseSettings):
     # FRONTEND_URL_PROD when APP_ENV=production. Each may list several origins, comma separated.
     frontend_url_dev: str = "http://localhost:5173,http://127.0.0.1:5173"
     frontend_url_prod: str = "https://kisanrahnuma-frontend.vercel.app"
+    # Also allowed in production: Vercel's per-deployment and preview URLs, e.g.
+    # https://kisanrahnuma-frontend-94u9k5pjm-salwas-projects-e922f067.vercel.app.
+    # The team suffix keeps other people's Vercel projects out. Empty = off.
+    frontend_url_prod_regex: str = r"https://kisanrahnuma-frontend-[a-z0-9-]+-salwas-projects-e922f067\.vercel\.app"
     # A conversation session expires after this many minutes of inactivity.
     session_timeout_minutes: int = 30
     # Language for new farmers until they choose one: "en", "ur" or "sd".
@@ -108,6 +112,10 @@ class Settings(BaseSettings):
     def cors_origin_list(self) -> list[str]:
         # Browsers send the Origin without a trailing slash, so "https://x.app/" would never match.
         return [o.strip().rstrip("/") for o in self.frontend_url.split(",") if o.strip()]
+
+    @property
+    def cors_origin_regex(self) -> str | None:
+        return (self.frontend_url_prod_regex or None) if self.is_production else None
 
 
 @lru_cache
