@@ -32,7 +32,7 @@ npm run typecheck  # tsc --noEmit
 npm run build      # typecheck + vite build
 ```
 
-There is no linter or frontend test suite. Config comes from `backend/.env` (`DATABASE_URL`, `IDENTITY_HASH_SECRET`, `CORS_ORIGINS`, see `app/core/config.py`) and `frontend/.env` (`VITE_API_BASE_URL`, `VITE_WHATSAPP_NUMBER`).
+There is no linter or frontend test suite. Config comes from `backend/.env` (`APP_ENV`, `FRONTEND_URL_DEV`, `FRONTEND_URL_PROD`, `DATABASE_URL`, `IDENTITY_HASH_SECRET`, see `app/core/config.py`; real environment variables override the file; CORS allows `FRONTEND_URL_PROD` when `APP_ENV=production`, otherwise `FRONTEND_URL_DEV`; every setting has a fallback default, and in production a placeholder secret only logs a warning) and `frontend/.env` (`VITE_API_BASE_URL`, `VITE_WHATSAPP_NUMBER`).
 
 ## Architecture
 

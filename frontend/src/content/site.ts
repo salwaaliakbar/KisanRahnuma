@@ -118,6 +118,8 @@ export const TEAM: Member[] = [
     role: "Finance Expert",
     bio: "Assistant Professor, Business Administration Department, Sukkur IBA University.",
   },
+  { name: "Uzair Ali", role: "Research Assistant", bio: "Supports the project's research, data collection and reporting." },
+  { name: "Ghulam Mujtaba", role: "Field Officer", bio: "Works with farmers and farmer groups in the field during the pilot." },
   { name: "Salwa Ansari", role: "AI Team", bio: "Builds the chatbot, its AI features and the WhatsApp channel." },
   { name: "Abdul Haseeb", role: "AI Team", bio: "Builds the chatbot, its AI features and the WhatsApp channel." },
 ];

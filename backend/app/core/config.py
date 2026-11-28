@@ -1,20 +1,40 @@
-"""Application settings, loaded from environment variables / backend/.env."""
+"""Application settings.
+
+Where each value comes from, first match wins:
+  1. a real environment variable (e.g. set in a host's dashboard, where no .env file is shipped)
+  2. backend/.env - the source of truth for secrets and per-deployment values
+  3. the default below, so nothing has to be set for the app to start
+"""
+import logging
+import secrets
 from functools import lru_cache
+from pathlib import Path
 from typing import Literal
 
-from pydantic import AliasChoices, Field
+from pydantic import AliasChoices, Field, field_validator, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
+
+# backend/.env, found the same way whatever directory the server is started from.
+ENV_FILE = Path(__file__).resolve().parents[2] / ".env"
+
+PLACEHOLDER_SECRET = "change-me-in-env"
+
+logger = logging.getLogger("farmer_assistant")
 
 
 class Settings(BaseSettings):
-    model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
+    model_config = SettingsConfigDict(env_file=ENV_FILE, env_file_encoding="utf-8", extra="ignore")
 
     app_name: str = "Farmer Assistant API"
+    # "development" (local) or "production" (deployed). Picks the allowed frontend origins.
+    app_env: Literal["development", "production"] = "development"
     database_url: str = "postgresql+psycopg://postgres:postgres@localhost:5432/farmer_assistant"
     # Secret used to hash channel identifiers (browser id now, WhatsApp wa_id later).
-    identity_hash_secret: str = "change-me-in-env"
-    # Comma-separated list of allowed frontend origins.
-    cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
+    identity_hash_secret: str = PLACEHOLDER_SECRET
+    # The website allowed to call the API: FRONTEND_URL_DEV when APP_ENV=development,
+    # FRONTEND_URL_PROD when APP_ENV=production. Each may list several origins, comma separated.
+    frontend_url_dev: str = "http://localhost:5173,http://127.0.0.1:5173"
+    frontend_url_prod: str = "https://kisanrahnuma-frontend.vercel.app"
     # A conversation session expires after this many minutes of inactivity.
     session_timeout_minutes: int = 30
     # Language for new farmers until they choose one: "en", "ur" or "sd".
@@ -28,7 +48,7 @@ class Settings(BaseSettings):
 
     # Admin dashboard (single shared operator password, not per-user accounts).
     admin_password: str = ""
-    admin_token_secret: str = "change-me-in-env"
+    admin_token_secret: str = PLACEHOLDER_SECRET
     admin_token_ttl_minutes: int = 720
 
     # Weather source: "open_meteo" (live, free, no key) or "json" (sample data in app/data/weather.json).
@@ -51,9 +71,43 @@ class Settings(BaseSettings):
     whatsapp_app_secret: str = Field("", validation_alias=AliasChoices("WHATSAPP_APP_SECRET", "APP_SECRET"))
     whatsapp_api_version: str = Field("v23.0", validation_alias=AliasChoices("WHATSAPP_API_VERSION", "API_VERSION"))
 
+    @field_validator("database_url")
+    @classmethod
+    def _use_psycopg3(cls, url: str) -> str:
+        # Hosted Postgres (Neon, Render...) hands out postgres:// or postgresql:// URLs, which
+        # SQLAlchemy maps to psycopg2. Only psycopg v3 is installed, so name it explicitly.
+        for prefix in ("postgresql://", "postgres://"):
+            if url.startswith(prefix):
+                return "postgresql+psycopg://" + url[len(prefix):]
+        return url
+
+    @model_validator(mode="after")
+    def _warn_on_placeholder_secrets(self) -> "Settings":
+        # Nothing is required: missing values fall back to the defaults above. In production,
+        # a placeholder secret only logs a warning, except ADMIN_TOKEN_SECRET, which is public
+        # in the source code and would let anyone forge an admin login. It falls back to a
+        # random per-process secret instead (admins just log in again after a restart).
+        if not self.is_production:
+            return self
+        if self.identity_hash_secret in ("", PLACEHOLDER_SECRET):
+            logger.warning("IDENTITY_HASH_SECRET is not set; using the placeholder. Set it in .env.")
+        if self.admin_token_secret in ("", PLACEHOLDER_SECRET):
+            logger.warning("ADMIN_TOKEN_SECRET is not set; using a random secret until restart.")
+            self.admin_token_secret = secrets.token_urlsafe(32)
+        return self
+
+    @property
+    def is_production(self) -> bool:
+        return self.app_env == "production"
+
+    @property
+    def frontend_url(self) -> str:
+        return self.frontend_url_prod if self.is_production else self.frontend_url_dev
+
     @property
     def cors_origin_list(self) -> list[str]:
-        return [o.strip() for o in self.cors_origins.split(",") if o.strip()]
+        # Browsers send the Origin without a trailing slash, so "https://x.app/" would never match.
+        return [o.strip().rstrip("/") for o in self.frontend_url.split(",") if o.strip()]
 
 
 @lru_cache
