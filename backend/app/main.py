@@ -39,6 +39,8 @@ async def database_error(_: Request, exc: SQLAlchemyError) -> JSONResponse:
     return JSONResponse(status_code=503, content={"detail": "Database is unavailable. Please try again."})
 
 
-@app.get("/api/health", tags=["health"])
+@app.api_route("/health", methods=["GET", "HEAD"], tags=["health"])
+@app.api_route("/api/health", methods=["GET", "HEAD"], tags=["health"])
 def health() -> dict[str, str]:
+    """Liveness check for uptime monitors. HEAD is allowed because many monitors use it."""
     return {"status": "ok"}

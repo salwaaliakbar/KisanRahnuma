@@ -11,6 +11,8 @@ def chat(client, client_id, **body):
 
 def test_health(client):
     assert client.get("/api/health").json() == {"status": "ok"}
+    assert client.get("/health").json() == {"status": "ok"}
+    assert client.head("/health").status_code == 200
 
 
 def test_chat_validation_errors(client):
