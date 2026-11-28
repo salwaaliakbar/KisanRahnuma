@@ -14,7 +14,7 @@ import type {
  */
 const env = import.meta.env;
 const isProduction = (env.VITE_APP_ENV || (env.PROD ? "production" : "development")) === "production";
-const API_BASE_URL = isProduction
+export const API_BASE_URL = isProduction
   ? env.VITE_BACKEND_PROD || "https://kisanrahnuma.onrender.com"
   : env.VITE_BACKEND_DEV || "http://localhost:8000";
 

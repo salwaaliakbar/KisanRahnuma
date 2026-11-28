@@ -2,9 +2,10 @@ import axios, { AxiosError } from "axios";
 
 import { clearAdminToken, getAdminToken } from "../lib/adminAuth";
 import type { DashboardSummary, FarmerPage, MessageUsage } from "../types/admin";
+import { API_BASE_URL } from "./client";
 
 const adminApi = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL ?? "http://localhost:8000",
+  baseURL: API_BASE_URL,
   timeout: 15000,
   headers: { "Content-Type": "application/json" },
 });
