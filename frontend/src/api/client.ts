@@ -27,7 +27,7 @@ const api = axios.create({
 /** Turns any Axios/network error into a short, user-facing message. */
 export function errorMessage(err: unknown): string {
   if (err instanceof AxiosError) {
-    if (!err.response) return "Cannot reach the server. Is the backend running on port 8000?";
+    if (!err.response) return `Cannot reach the server at ${API_BASE_URL}. Please try again.`;
     const detail = (err.response.data as { detail?: unknown })?.detail;
     if (typeof detail === "string") return detail;
     if (err.response.status === 422) return "The request was not valid.";
