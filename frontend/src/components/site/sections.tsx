@@ -496,11 +496,12 @@ export function TimelineSection({ compact = false }: { compact?: boolean }) {
 
 /* ---------- team ---------- */
 
-function initials(name: string, role: string) {
-  const src = name === "Team Member" ? role : name;
-  return src
+const HONORIFICS = new Set(["dr", "prof", "mr", "mrs", "ms", "engr"]);
+
+function initials(name: string) {
+  return name
     .split(/\s+/)
-    .filter((w) => /^[A-Za-z]/.test(w))
+    .filter((w) => /^[A-Za-z]/.test(w) && !HONORIFICS.has(w.replace(/\.$/, "").toLowerCase()))
     .slice(0, 2)
     .map((w) => w[0].toUpperCase())
     .join("");
@@ -524,7 +525,7 @@ export function TeamSection({ limit }: { limit?: number }) {
           {members.map((m, i) => (
             <article key={`${m.role}-${i}`} className="rounded-2xl border border-line bg-white p-6">
               <span className={`font-display grid h-16 w-16 place-items-center rounded-2xl text-xl font-semibold ${AVATAR_TINTS[i % AVATAR_TINTS.length]}`}>
-                {initials(m.name, m.role)}
+                {initials(m.name)}
               </span>
               <h3 className="mt-4 text-lg font-semibold text-brand-950">{m.name}</h3>
               <p className="text-sm font-medium text-wheat-700">{m.role}</p>

@@ -92,14 +92,34 @@ export const TIMELINE: Milestone[] = [
 
 export type Member = { name: string; role: string; bio: string };
 
-/** Placeholder team: replace names, roles and bios with the real team. */
 export const TEAM: Member[] = [
-  { name: "Team Member", role: "Project Lead", bio: "Leads the project, partnerships and reporting." },
-  { name: "Team Member", role: "Agriculture Specialist", bio: "Reviews crop, pest and weather advice." },
-  { name: "Team Member", role: "Climate & Data Lead", bio: "Weather data, crop-rate trends and forecasting." },
-  { name: "Team Member", role: "Software Engineer", bio: "Builds the chatbot and WhatsApp channel." },
-  { name: "Team Member", role: "Field Coordinator", bio: "Works with farmer groups during the pilot." },
-  { name: "Team Member", role: "Language & Content", bio: "Sindhi and Urdu content and translation review." },
+  {
+    name: "Dr Muhammad Ismail Mangrio",
+    role: "Project Lead",
+    bio: "Assistant Professor, Computer Science Department, Sukkur IBA University, Sindh, Pakistan.",
+  },
+  {
+    name: "Prof. Dr Altaf Hussain Samo",
+    role: "Co-lead",
+    bio: "Dean, Faculty of Business and Media Science, Sukkur IBA University, Sindh, Pakistan.",
+  },
+  {
+    name: "Mr Rasool Bakhsh Junejo",
+    role: "Agriculture Consultant",
+    bio: "Ex-Director, Agriculture Extension Department, Sukkur.",
+  },
+  {
+    name: "Dr Mulazim Ali Khokhar",
+    role: "Credit Expert",
+    bio: "Assistant Professor, Business Administration Department, Sukkur IBA University.",
+  },
+  {
+    name: "Dr Asad Ali Qazi",
+    role: "Finance Expert",
+    bio: "Assistant Professor, Business Administration Department, Sukkur IBA University.",
+  },
+  { name: "Salwa Ansari", role: "AI Team", bio: "Builds the chatbot, its AI features and the WhatsApp channel." },
+  { name: "Abdul Haseeb", role: "AI Team", bio: "Builds the chatbot, its AI features and the WhatsApp channel." },
 ];
 
 export const GOALS = [
