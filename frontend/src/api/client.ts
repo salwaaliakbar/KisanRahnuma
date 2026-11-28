@@ -7,8 +7,19 @@ import type {
   FeedbackRequest,
 } from "../types/api";
 
+/**
+ * Backend URL from frontend/.env: VITE_APP_ENV picks VITE_BACKEND_DEV or VITE_BACKEND_PROD
+ * (empty = dev server -> development, build -> production). The defaults here are only a
+ * fallback, e.g. on Vercel where the gitignored .env file does not exist.
+ */
+const env = import.meta.env;
+const isProduction = (env.VITE_APP_ENV || (env.PROD ? "production" : "development")) === "production";
+const API_BASE_URL = isProduction
+  ? env.VITE_BACKEND_PROD || "https://kisanrahnuma.onrender.com"
+  : env.VITE_BACKEND_DEV || "http://localhost:8000";
+
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL ?? "http://localhost:8000",
+  baseURL: API_BASE_URL,
   timeout: 15000,
   headers: { "Content-Type": "application/json" },
 });
